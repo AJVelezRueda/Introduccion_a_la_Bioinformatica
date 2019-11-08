@@ -4,5 +4,7 @@ Este material está diseñado para la cátedra de Bioinformática de la carrera 
 #PANDAS:USOS Y DESUSOS
 Esta actividad requiere la instalación de Anaconda (o Jupyter) y las librerías Pandas y seaborn (ver guía de instalación de Python)
 
-#Moedelado
-Los trabajos prácticos relativos al modelado molecular requieren la instalación de Modeller (ver tutorial de instalación https://salilab.org/modeller/download_installation.html )
+#ALINEAMIENTO ESTRUCTURAL_VIZ: para el trabajo práctico de alineamientos estructurales utilizaremos el software Pymol (que puede ser instalado siguiendo el tutorial https://pymolwiki.org/index.php/Linux_Install )
+
+#MODELADO: 
+Los trabajos prácticos relativos al modelado molecular requieren la instalación de Modeller (ver tutorial de instalación https://salilab.org/modeller/download_installation.html ). Recomiendo la instalación utiizando conda en caso de tener instalado Anaconda como distribución de Python.
