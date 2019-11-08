@@ -1,5 +1,5 @@
 # Bioinfo_UNQ
-Este material está diseñado para la cátedra de Bioinformática de la carrera de Informática de la Universidad Nacional de Quilmes. 
+Este material está diseñado para la cátedra de Bioinformática de las carreras Tecnicatura en Programación Informática y Licenciatura Informática de la Universidad Nacional de Quilmes. 
 
 #PANDAS:USOS Y DESUSOS
 Esta actividad requiere la instalación de Anaconda (https://www.anaconda.com/distribution/ ) y las librerías Pandas y seaborn (ver guía de instalación de Python)
