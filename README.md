@@ -2,7 +2,7 @@
 Este material está diseñado para el contexto de trabajo aúlico de la cátedra de Bioinformática de las carreras Tecnicatura en Programación Informática y Licenciatura Informática de la Universidad Nacional de Quilmes. 
 
 
-Podés encontrar material interactivo en el siguiente enlace: https://flbulgarelli.github.io/umi/#una-palabra-no-dice-nada-y-al-mismo-tiempo-lo-dice-todo
+Podés encontrar material interactivo para estudiar alineamientos de secuencias en el siguiente enlace: https://flbulgarelli.github.io/umi/#una-palabra-no-dice-nada-y-al-mismo-tiempo-lo-dice-todo
 
 #PANDAS:USOS Y DESUSOS
 Esta actividad requiere la instalación de Anaconda (https://www.anaconda.com/distribution/ ) y las librerías Pandas y seaborn (ver guía de instalación de Python)
