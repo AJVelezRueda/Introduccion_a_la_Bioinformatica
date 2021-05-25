@@ -1,0 +1,77 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=9;
+TAXLABELS
+[1] 'WP_037127040.1_cytochrome_c_family_protein__Rhizobium_sp._CF097_'
+[2] 'NP_001285984.1_cytochrome_c_proximal__isoform_B__Drosophila_melanogaster_'
+[3] 'NP_061820.1_cytochrome_c__Homo_sapiens_'
+[4] 'bartmosca'
+[5] 'CBJ31344.1_Cytochrome_c__Ectocarpus_siliculosus_'
+[6] 'KAE8767936.1_Cytochrome_c__Hordeum_vulgare_'
+[7] 'QEE59979.1_cytochrome_c__Betula_platyphylla_'
+[8] 'KAE9612850.1_Cytochrome_c__Lupinus_albus_'
+[9] 'NP_001363126.1_cytochrome_c__Vigna_radiata_'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=9 nsplits=53;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	8	 2 3,
+	100	 4,
+	83	 2 3 4,
+	100	 6,
+	4	 2 3 4 6,
+	100	 7,
+	100	 8,
+	73	 7 8,
+	100	 9,
+	76	 7 8 9,
+	35	 1 5,
+	100	 5,
+	100	 1,
+	33	 5 7 8 9,
+	61	 1 2 3 4,
+	15	 1 3 4,
+	3	 1 4,
+	68	 3 4,
+	22	 8 9,
+	3	 6 9,
+	45	 6 7 8 9,
+	4	 5 9,
+	14	 2 4,
+	1	 2 3 4 5,
+	15	 1 5 6,
+	5	 1 3,
+	5	 7 9,
+	1	 1 5 6 9,
+	1	 1 5 9,
+	2	 6 7 8,
+	1	 6 8 9,
+	1	 1 2 4,
+	2	 1 2,
+	1	 2 3 4 8,
+	5	 5 7 8,
+	1	 5 8 9,
+	1	 5 7,
+	2	 2 3 4 9,
+	1	 6 7,
+	0	 5 7 9,
+	1	 5 6 7 9,
+	2	 1 6,
+	0	 5 6 9,
+	2	 5 6,
+	0	 1 5 7 8,
+	0	 6 7 9,
+	0	 6 8,
+	0	 5 8,
+	0	 5 6 7,
+	0	 5 6 7 8,
+	0	 1 2 3,
+;
+END; [Splits]
+
