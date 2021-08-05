@@ -1,8 +1,8 @@
 # Biomoléculas: una breve introducción al nuestro mundo interior
 
-### Autora: Prof. Dra. Ana Julia Velez Rueda
+##### Autora: Prof. Dra. Ana Julia Velez Rueda
 
-## Indice
+### Indice
   * [1. Una introducción a la Introducción](#1_intro)
   * [2. Biomoléculas](#2_biomolec)
   * [3. Proteínas](#3_proteinas)
