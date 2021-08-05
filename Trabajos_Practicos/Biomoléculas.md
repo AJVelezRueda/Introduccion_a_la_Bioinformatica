@@ -8,6 +8,7 @@
   * [3. Proteínas](#3_proteinas)
   * [4. Ácidos Nucleicos](#4_acnuc)
   * [5. Barrilete cósmico ¿De qué planeta viniste?](#5_barrilete)
+  * [6. Bibliografía](#6_citas)
 
   
 
@@ -101,22 +102,29 @@ La estructura terciaria es un plegamiento complicado sobre la estructura secunda
 
 Existen diferencias en las estructuras del ADN y ARN, el primero será una cadena doble, mientras que el ARN se encuentra por lo general como una cadena sencilla (algunos virus pueden presentar ARN doble hebra.. ¡Malditos!). Se conocen varios tipos de ARN y todos ellos participan de una u otra manera en la síntesis de las proteínas. Ellos son: ARN mensajero (ARNm); el ARN ribosomal (ARNr), que forma el armazón de los ribosomas; el ARN de transferencia (ARNt) y small nuclear RNAs (snRNAs). Otros tipos incluyen microRNAs (miRNAs), pequeños de interferencia (siRNAs), etc. 
 
-
-BARRILETE CÓSMICO ¿DE QUÉ PLANETA VINISTE?
+[5. Barrilete cósmico ¿De qué planeta viniste?](#5_barrilete)
 Ahora bien, no es una cuestión menor la obtención de la información biológica para su procesamiento computacional ¿De dónde viene esa información? ¿Dónde encontramos las secuencias de proteínas o su función en la célula; o inclusive información relativa a pacientes infectados con CODVID-19? 😱
 
 En términos generales científic@s de todo el mundo desarrollan diversos conocimientos relacionados con los seres vivos. Estos conocimientos se obtienen a base de observaciones y experimentación. Los datos y conclusiones obtenidos son compartidos entre científicos de forma organizada, ya sea por medio de publicaciones en revistas super-archi-nerds o, por ejemplo, a través de Bases de datos disponibles en internet. Una base de datos (DB por sus siglas en inglés) es una colección estructurada de datos; en particular, una base de datos biológica es una colección de información relacionada con seres vivos. Estos datos provienen de experimentos científicos, literatura publicada, análisis computacional, etc. 
 
 La información contenida en bases de datos biológicas puede incluir, por ejemplo: funciones, estructura y localización de proteínas o genes, efectos clínicos de mutaciones, así como similitudes de secuencias o distancias evolutivas, etc. Entre las bases de datos más utilizadas por científicos de todo el mundo, bioinformáticos o no, se encuentran GenBank (colección de todas las secuencias biológicas estudiadas) y PDB (que guarda la información estructural disponible acerca de ácidos nucleicos y proteínas).
 
+>
 >👉 ¡Vamos a explorar juntos/as como es La vida en Tres dimensiones!
+>
 
 
+[6. Bibliografía](#6_citas)
 
-Bibliography
+
 Anfinsen, C.B., Haber, E., Sela, M., and White, F.H. (1961). The kinetics of formation of native ribonuclease during oxidation of the reduced polypeptide chain. Proc Natl Acad Sci USA 47, 1309–1314.
+
 Frauenfelder, H., Sligar, S.G., and Wolynes, P.G. (1991). The energy landscapes and motions of proteins. Science 254, 1598–1603.
+
 Mirsky, A.E., and Pauling, L. (1936). On the structure of native, denatured, and coagulated proteins. Proc Natl Acad Sci USA 22, 439–447.
+
 Watson, J.D., and Crick, F.H. (1953). Molecular structure of nucleic acids; a structure for deoxyribose nucleic acid. Nature 171, 737–738.
+
 Wei, G., Xi, W., Nussinov, R., and Ma, B. (2016). Protein ensembles: how does nature harness thermodynamic fluctuations for life? the diverse functional roles of conformational ensembles in the cell. Chem. Rev. 116, 6516–6551.
+
 Zhuravlev, P.I., Materese, C.K., and Papoian, G.A. (2009). Deconstructing the native state: energy landscapes, function, and dynamics of globular proteins. J. Phys. Chem. B 113, 8800–8812.
