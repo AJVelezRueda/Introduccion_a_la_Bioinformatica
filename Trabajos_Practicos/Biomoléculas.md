@@ -10,9 +10,6 @@
   * [5. Barrilete cósmico ¿De qué planeta viniste?](#5_barrilete)
   * [6. Bibliografía](#6_citas)
 
-  
-
-
 [1. Una introducción a la Introducción](#1_intro)
 La Bioinformática es una disciplina científica destinada a la aplicación de métodos computacionales al análisis de datos biológicos, para poder contestar numerosas preguntas. Los comienzos de la bioinformática se encuentran íntimamente relacionados a los avances científicos. Entre otros proyectos, el Proyecto genoma humano marca un hito en la ciencia y muestra la necesidad de recurrir a métodos automatizados para el análisis del caudal enorme de datos que se producen con las técnicas de secuenciación. Pero no todo en la Bioinformática se trata de procesar datos, esta disciplina puede generar entre otras cosas datos de relevancia biológica derivado de simulaciones y cálculos que retomen conocimientos ya establecidos. 
 Hoy en día en el campo de la Bioinformática se desarrollan, por ejemplo, herramientas para la predicción de la unión de fármacos a proteínas; o la presencia de cavidades y bolsillos en las estructuras proteicas, etc. Así es como echando mano de la tecnología podemos percibir distintos procesos biológicos y poner en imágenes conceptos que pueden resultarnos de otra forma muy abstractos. Un paso importante para aplicar el pensamiento computacional (binario) a la Biología, es reconocer qué datos o qué información nos aportan un conocimiento biológico. En principio, se podría decir que toda descripción de un sistema biológico podría ser un “dato biológico”. Por ejemplo, se pueden considerar datos biológicos el número de murciélagos en una región dada, la cantidad de pacientes enfermos con gripe en una población, la cantidad de glóbulos rojos por mililitros de sangre, entre otros. 
@@ -59,18 +56,18 @@ Los tipos básicos de la estructura secundaria son:
 La estructura terciaria de una proteína corresponde al plegamiento tridimensional de las proteínas, debido a las interacciones de sus cadenas laterales. Las proteínas pueden plegarse y desplegarse repetidas veces, con la termodinámica como “fuerza impulsora”, hasta llegar a un mínimo de energía denominado estado nativo. Pauling y Mirsky, en su trabajo publicado en 1936, dan una primera definición del estado nativo de las proteı́nas como un plegamiento o conformación característico, que le confiere a las proteínas su función, y cuya pérdida denominaron desnaturalización [(Mirsky and Pauling, 1936)](). Sin embargo, la actual descripción del estado nativo proteico propone que las proteínas en agua (lo que aplica a las células) presentan más de una conformación posible, que pueden interconvertirse unas en otras y explican su función [(Frauenfelder et al., 1991; Wei et al., 2016)](). La función de una proteína y sus propiedades estarán determinadas, entonces, por la distribución de sus subestados conformacionales y las redistribuciones de las poblaciones en los diferentes entornos [(Zhuravlev et al., 2009)](). 
 Desde el punto de vista menos Bio y más informático, las proteínas (y veremos luego que también los ácidos nucleicos, tanto ADN como ARN) pueden ser representadas “en unos y ceros” de múltiples formas.
 
->RETO II: Proponé una forma de expresar la información contenida en la estructura primaria de las proteínas usando tipos de datos de los lenguajes de programación que conocés.
+>DESAFÍO II: Proponé una forma de expresar la información contenida en la estructura primaria de las proteínas usando tipos de datos de los lenguajes de programación que conocés.
 >
->RETO III: ¿ En qué tipo de datos podrías expresar la información de la estructura terciaria proteica?
+>DESAFÍO III: ¿ En qué tipo de datos podrías expresar la información de la estructura terciaria proteica?
 >
->RETO IV: Rosalind Franklin es una científica muy relevante, que tuvo menos reconocimiento del merecido. ¿Cuáles fueron sus contribuciones en este campo? ¿Qué nos cuenta su historia acerca del mundo de la ciencia?
+>DESAFÍO IV: Rosalind Franklin es una científica muy relevante, que tuvo menos reconocimiento del merecido. ¿Cuáles fueron sus contribuciones en este campo? ¿Qué nos cuenta su historia acerca del mundo de la ciencia?
 >
 >👉 Mirá el artículo “El Caso de Rosalind Franklin” de Mujeres con Ciencia.
 
 Dijimos que el hecho de que una proteína adquiera una u otra estructura depende de la composición de aminoácidos que la conforman (estructura primaria). Se ha estudiado en detalle la frecuencia de aparición de los distintos aminoácidos en una dada estructura secundaria y se observó que estos no se encuentran distribuidos de igual modo, si no que algunos aminoácidos predominan en ciertas estructuras. Es decir que conociendo la secuencia de una proteína y la preferencia de cada uno de los 20 aminoácidos para formar parte de una u otra estructura podríamos predecir qué disposición en el espacio adoptará una dada proteína. 
 
 >
->RETO V: Proponé en pseudocódigo un programa que prediga la estructura secundaria que adoptará cada residuo (aminoácido) de la secuencia proteica dada, especificandola como H (si es una hélice), B (si es una hoja beta plegada) y L (si es un bucle o loop). 
+>DESAFÍO V: Proponé en pseudocódigo un programa que prediga la estructura secundaria que adoptará cada residuo (aminoácido) de la secuencia proteica dada, especificandola como H (si es una hélice), B (si es una hoja beta plegada) y L (si es un bucle o loop). 
 >
 > ☑️ PREGUNTAS DISPARADORAS: ¿Qué inputs tendría tu programa? ¿De qué modo se te ocurre configurar el output?
 ¡Guardate esta idea, la vamos a usar más adelante!
@@ -95,7 +92,7 @@ La estructura secundaria es el arreglo local de la estructura primaria estabiliz
 La estructura terciaria es un plegamiento complicado sobre la estructura secundaria adquiriendo una forma tridimensional. El ADN presenta una estructura terciaria, que consiste en que la fibra retorcida sobre sí misma, formando una especie de súper-hélice. Esta disposición se denomina ADN superenrollado y permite el empaquetamiento del ADN en las células. El ADN es una molécula muy larga en algunas especies y, sin embargo, en las células eucariotas se encuentra alojado dentro del núcleo, un compartimiento pequeño. 
 
 
->RETO VI: ¿Qué hace distintos a dos individuos de una especie?  Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
+>DESAFÍO VI: ¿Qué hace distintos a dos individuos de una especie?  Propone una forma de corroborar tu respuesta realizando un diagrama de un posible método computacional para dicho fin.
 >
 >☑️ PREGUNTAS DISPARADORAS: ¿Qué información deberías tener? ¿De qué modo deberías expresar dicha información para el análisis?
 >
