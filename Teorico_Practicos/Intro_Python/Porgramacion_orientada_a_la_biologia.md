@@ -124,9 +124,14 @@ print('Hola Bioinformática!')
 ¿Qué pasó? print es una función que te permite imprimir o mostrar en la consola todo lo que se encuentre dentro de los paréntesis y entre comillas, como en nuestro ejemplo. Entre otras cosas, esta función nos permite interactuar con nuestro programa o con el futuro usuario de nuestro programa.
 Felicitaciones, ¡ese fue tu primer programa en Python!
 
-DUDAS FRECUENTES: El teclado nos permite usar comillas simples o dobles. En Python no existen diferencias entre comillas simples o dobles. Sin embargo, es importante ser coherentes en su uso: por ejemplo, si comenzamos escribiendo una frase con comillas dobles, también debemos cerrarla con comillas dobles. Cuando queremos imprimir un mensaje comillado, por ejemplo, podemos escribir: 
+
+<details>
+  <summary>DUDAS FRECUENTES:</summary>
+
+ El teclado nos permite usar comillas simples o dobles. En Python no existen diferencias entre comillas simples o dobles. Sin embargo, es importante ser coherentes en su uso: por ejemplo, si comenzamos escribiendo una frase con comillas dobles, también debemos cerrarla con comillas dobles. Cuando queremos imprimir un mensaje comillado, por ejemplo, podemos escribir: 
 print('Oxígeno exclamó: "¡Quiero unirme con vos!". "OK", respondió Potasio.')  
 En este ejemplo vemos cómo las comillas dobles delimitan el mensaje, mientras que las comillas simples forman parte del mensaje. Si quisiéramos incluir comillas dobles en el mensaje, deberíamos delimitarlo con comillas simples.
+</details>
 
 **Una calculadora super-archi-genial**
 
@@ -216,7 +221,12 @@ print(d)
 
 >RETO II: Creá una variable llamada doble, que sea el doble de la suma entre a y b.
 
->DUDAS FRECUENTES: ¿Qué pasa cuando generamos una variable? Al definir una variable estamos poniéndole nombre a un lugarcito en la memoria de la computadora, para guardar allí un valor dado. Podemos definir más de una variable con el mismo valor: cada una de estas variables corresponderá a un lugar distinto de la memoria. Sin embargo, al guardar dos valores distintos en una misma variable, lo que estaremos haciendo es redefinir la variable, asignándole un nuevo valor (y causando que “olvide” el valor asignado inicialmente). Veamos un ejemplo:
+<details>
+  <summary>DUDAS FRECUENTES:</summary>
+  
+   ¿Qué pasa cuando generamos una variable? Al definir una variable estamos poniéndole nombre a un lugarcito en la memoria de la computadora, para guardar allí un valor dado. Podemos definir más de una variable con el mismo valor: cada una de estas variables corresponderá a un lugar distinto de la memoria. Sin embargo, al guardar dos valores distintos en una misma variable, lo que estaremos haciendo es redefinir la variable, asignándole un nuevo valor (y causando que “olvide” el valor asignado inicialmente). Veamos un ejemplo:
+
+<details>
 
 ```python
 		b = “hola” 
@@ -310,7 +320,13 @@ print(palabra == lo_mismo)
 >RETO III: Digamos que el ADN no es más que un mensaje en clave, que debe ser descifrado o interpretado para la síntesis de proteínas. El mensaje está escrito por una secuencia determinada de 4 nucleótidos distintos representados por las letras A, T, G y C. Dentro de la célula, el mensaje es transportado por otra molécula, el ARN, muy similar al ADN pero con U en vez de T. En este mensaje, cada triplete o grupo de tres letras del ARN se denomina codón, y cada aminoácido de las proteínas está codificado por uno o varios codones. Así por ejemplo el codón ‘AUG’ codifica para el aminoácido Metionina , el codón ‘AAA’ para Lisina, el codón ‘CUA’ para Leucina, etc. 
 ¿Podrías escribir una cadena de ARN que codifique para el péptido (una cadena corta de aminoácidos) `‘Met-Lis-Lis-Lis-Leu-Leu-Met’` combinando las variables  ` met = ‘AUG’ `, `lis = ‘AAA’` y `leu = ‘CUA’`  utilizando operadores matemáticos? 
 
-DUDAS FRECUENTES: Todos los retos se encuentran resueltos en github https://github.com/AJVelezRueda/Resolucion_Guia_taller_programacion_orientada_a_la_Biologia .
+
+<details>
+  <summary>DUDAS FRECUENTES:</summary>
+  
+  Todos los retos se encuentran resueltos en github https://github.com/AJVelezRueda/Resolucion_Guia_taller_programacion_orientada_a_la_Biologia .
+<details>
+
 
 **Fetas de texto: dame doscientos!**
 En Python podemos saber qué caracteres o subpartes conforman una cadena o string. Python le asigna a cada caracter de una cadena un número de posición. El primer carácter es la posición cero (¡sí, cero!) y las posiciones aumentan de a una hasta el fin de la cadena. 
@@ -484,8 +500,11 @@ else:
 print("¿Qué flasheas? ¡Es normal!")
 ```
 
-DUDAS FRECUENTES: Cuando ejecutamos una sentencia condicional o un loop, las aplicaciones de Android y Windows reconocen automáticamente los dos puntos que son característicos de la sintaxis de Python. Al ingresar un “Enter” para escribir la siguiente línea veremos tres puntos en lugar del prompt de Python, y esto significa que espera el resto que el resto del código sea ingresado. Una vez escrito todo el código, para ser ejecutado, debemos dar doble “Enter”. Las indentaciones (o sangrías) necesarias o características deben ser escritas manualmente usando el espaciador. Estas pueden ser de 4 espacios (que es lo convencional) por ejemplo o 2 espacios, pero es importante respetar el modo en que escribimos la sangría a lo largo del código. La aplicación recomendada para iOS, sin embargo, reconoce automáticamente la necesidad de una indentación, por lo que no hará falta escribirla.
+<details>
+  <summary>DUDAS FRECUENTES:</summary>
+Cuando ejecutamos una sentencia condicional o un loop, las aplicaciones de Android y Windows reconocen automáticamente los dos puntos que son característicos de la sintaxis de Python. Al ingresar un “Enter” para escribir la siguiente línea veremos tres puntos en lugar del prompt de Python, y esto significa que espera el resto que el resto del código sea ingresado. Una vez escrito todo el código, para ser ejecutado, debemos dar doble “Enter”. Las indentaciones (o sangrías) necesarias o características deben ser escritas manualmente usando el espaciador. Estas pueden ser de 4 espacios (que es lo convencional) por ejemplo o 2 espacios, pero es importante respetar el modo en que escribimos la sangría a lo largo del código. La aplicación recomendada para iOS, sin embargo, reconoce automáticamente la necesidad de una indentación, por lo que no hará falta escribirla.
 
+<details>
 
 >🚨 PARA TENER EN CUENTA: Cualquier error en la sintaxis, ya sea la ausencia de los dos puntos (:) o la falta de la indentación requerida, generan un error al ser ejecutados de tipo  ‘syntax error’ o ‘Indentation error’ respectivamente. Es importante hacer énfasis en la sintaxis en estos ejemplos y la coherencia en la escritura dentro del código.
 
