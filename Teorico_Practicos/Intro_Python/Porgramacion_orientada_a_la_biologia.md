@@ -151,11 +151,13 @@ Vamos a probar algunos cálculos. Escribí en tu consola:
 ¿Qué resultado nos da? ¿Para qué se usa la barra hacia adelante? 
 
 En Python se pueden usar los siguientes sı́mbolos básicos de matemáticas, que en programación se llaman operadores:
-+ | Suma|
-- | Resta
- * | Multiplicación
- / | División 
 
+|Operación	|Operador | | | | | | | | | | | | |
+|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
+| Suma | + | | | | | | | | | | | | |
+| División | / | | | | | | | | | | | | |
+| Multiplicación | * | | | | | | | | | | | | |
+| Exponencial | ** | | | | | | | | | | | | |
 
 Si por ejemplo tomamos la siguiente operación:
 
@@ -174,6 +176,7 @@ Si por ejemplo tomamos la siguiente operación:
 De las dos operaciones anteriores podemos concluir dos cosas importantes: en este lenguaje, al igual que en la matemática, los operadores no tienen la misma prioridad de lectura o ejecución. La multiplicación y la división tienen mayor orden de prioridad que la suma y la resta. Esto significa que en el ejemplo 5+30*20, Python primero realiza la operación 30*20 y luego le suma 5 al resultado de la multiplicación. Los paréntesis nos sirven para reordenar las prioridades: al hacer (5+30) obligamos la ejecución de esta operación antes que la multiplicación. 
 
 ¿Qué tal si probamos algo más complejo? Escribamos lo siguiente:
+
 ```python
 ((4+5)*2)/5
 ```
@@ -229,11 +232,15 @@ print(d)
 <details>
 
 ```python
-		b = “hola” 
-Definimos nuestra variable, de nombre b, y hacemos que sea igual a “hola”.
-		b =  “pato”
-Nuestra variable b fue redefinida: ahora guarda el valor “pato” y ya no puede recordar que alguna vez fue “hola”. 
+b = “hola” 
 ```
+Definimos nuestra variable, de nombre b, y hacemos que sea igual a “hola”.
+
+```python
+		b =  “pato”
+```
+
+Nuestra variable b fue redefinida: ahora guarda el valor “pato” y ya no puede recordar que alguna vez fue “hola”. 
 
 
 **¿Y qué con eso?**
@@ -266,22 +273,26 @@ print(edad_lola == edad_ana)
 ¿Qué resultado obtenés al comparar dos variables? Sí, los operadores relacionales no devuelven valores numéricos, sino que nos afirman (True) o rechazan (False) la hipótesis que hayamos puesto a prueba. En nuestro ejemplo la hipótesis es que la edad de Ana es igual a la de Lola y por eso Python nos devuelve False.
 Los operadores relacionales que se pueden usar en Python son:
 
-==
-Igual
-!=
-Distinto
-<
-Menor
->
-Mayor
+|Operación	|Operador | | | | | | | | | | | | |
+|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
+| Igualdad | == | | | | | | | | | | | | |
+| Distinto | != | | | | | | | | | | | | |
+| Mayor | > | | | | | | | | | | | | |
+| Menor | < | | | | | | | | | | | | |
 
 
 ¿Has probado estos operadores con variables que contengan una palabra? Intentá crear dos variables cuyos valores sean “Ana” y “ana” y verificar si son iguales.  ¿Qué da?¿Por qué?
 
-Una palabra no dice nada…
+**Una palabra no dice nada…**
+
 En programación al texto se le llama ‘string’. Este tipo de datos no es más que una cadena de caracteres, así una palabra se puede entender como una cadena de letras. Un string no necesariamente tiene que tener sentido. En Python las cadenas se definen escribiendo los caracteres entre comillas (simples o dobles, indistintamente). A una variable se le puede asignar una cadena de la siguiente forma:
+
+
+```python
 cadena = 'este es un ejemplo de cadena'
 print(cadena)
+
+```
 
 Podemos imprimir una cadena junto con el valor de una variable (un número u otra cadena) utilizando el marcador %s. Este símbolo marca el lugar donde va a incorporarse el texto de la variable. Por ejemplo:
 
