@@ -21,6 +21,7 @@ Tomar decisiones. Muchas veces se hace necesario que el programa tome un camino 
 
 Repetición. Llegados a un punto de nuestra solución, es probable que los pasos propuestos en el programa deban repetirse varias veces. Por ejemplo, si quisiéramos calcular el área de un cuadrado, propondríamos un programa que multiplique por sí mismo el tamaño de un lado del cuadrado. Ahora bien, si tuviéramos siete cuadrados, el programa debería calcular el área de cada uno. Al escribirlo de manera procedimental, el programa quedaría así:
 
+```python
 calcular_area cuadrado 1
 calcular_area cuadrado 2
 calcular_area cuadrado 3
@@ -28,6 +29,7 @@ calcular_area cuadrado 4
 calcular_area cuadrado 5
 calcular_area cuadrado 6
 calcular_area cuadrado 7
+```
 
 Lo cual es ciertamente muy engorroso. Sin embargo existe otro modo en el que podemos escribir el mismo programa:
 repetir 7 veces:
@@ -51,9 +53,11 @@ NOTAS DE CLASE: Los comienzos de la bioinformática se encuentran íntimamente r
 Pensamiento computacional: datos biológicos.
 Un paso importante para aplicar el pensamiento computacional (binario), en otras palabras, pasar del cuaderno a la compu, es reconocer qué datos o qué información nos aportan un conocimiento biológico. En principio, se podría decir que toda descripción de un sistema biológico podría ser un “dato biológico”. Por ejemplo, se pueden considerar datos biológicos el número de murciélagos en una región dada, la cantidad de pacientes enfermos con gripe en una población, la cantidad de glóbulos rojos por mililitros de sangre, entre otros. Ahora bien, para comenzar desde lo micro a lo macro podríamos pensar en las células. Dentro de cada una de las células del cuerpo hay información importante almacenada, también hay otras tantas cosas, pero enfocándonos en la información que las hace a cada “célula quienes son” podríamos destacar unas moléculas muy importantes.
 
-RETO TI: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de una célula?
+>RETO TI: ¿Podrías buscar un ejemplo de macromoléculas que almacenen información sobre la ‘identidad’ de una célula?
+>
 
 NOTAS DE CLASE: Reconocer qué datos nos aportan los análisis de los sistemas biológicos y cómo procesarlos, nos permite no sólo desarrollar los aspectos empírico y metodológico de la ciencia, resolviendo problemas sencillos desde la construcción de respuestas que impliquen la observación; sino también nos permite ahondar en el aspecto abstracto de la ciencia y en el entendimiento de los modelos que subyacen a los conceptos que estamos abordando. 
+
 
 Entonces: ¿Qué usamos para programar? ¿Qué es Python?
 Es un lenguaje de programación con una forma de escritura (sintaxis) sencilla y poderosa. Es lo que se conoce como lenguaje de scripting, que puede ser ejecutado por partes y no necesita ser compilado en un paso aparte. Python tiene muchas características, ventajas y usos que vamos a pasar por alto en este taller, pero las podés leer en las páginas oficiales de Python y Python Argentina. Para nosotros, la razón más importante para elegir Python es que podés comenzar a hacer tus propios programas realmente rápido.
@@ -473,28 +477,37 @@ Ya fuera del bucle (sin la sangría), para que no se repite en cada vuelta, impr
 print('¿Qué se formó? ' + palabra)
 
 En resumen:
+
+```python
 palabra = 'BIOINFORMATICA'
 for i in palabra:
     print( '¡Dame una ' + i +'! ¡Te doy la '+ i + '!')
 print('¿Qué se formó? ' + palabra)
+```
 
 El programa que acabamos de crear tiene un bucle for. Como hemos visto un  bucle for consiste en un for, una variable (en nuestro caso i) que cambia en cada repetición del ciclo, separada por un in o “en” y un rango de números o cualquier variable ‘iterable’ (que pueda dividirse en partes), cuyos elementos van a ser los valores que tomará nuestra variable i. Nuestro bucle puede ser leído, entonces, como: para todas las letras i de la palabra ‘BIOINFO’, imprimí el mensaje: 'Dame una ' + i +', te doy la '+ i + '!'. 
 Para construir el mensaje de salida, concatenamos las distintas partes de nuestro mensaje con un ‘+’. ¡Ojo! Para que nuestro mensaje pueda ir cambiando en cada vuelta, utilizamos la variable i dentro del mensaje, notando que i esté sin comillas ya que es una variable que va tomando distintos valores cada vez. Recordá que es muy importante dejar una tabulación o sangría (un espacio en blanco, insertado con la tecla tab; o cuatro espacios) en el comienzo de la línea de abajo; de lo contrario Python te hará saber que no le gustó, con el cartel: IndentationError: expected an indented block.
 
-Divide y loopearás!...
+## Divide y loopearás!...
 Como dijimos antes, podemos usar cualquier tipo de dato divisible en partes para construir un bucle o loop for, ¡inclusive listas! 
 Imaginemos que tenemos una bacteria que se divide por fisión binaria, entonces la célula hija es lo que se denomina un clon: un organismo con genes exactamente iguales. Ahora, si quisiéramos decirle a cada célula nueva que no es más que una copia genéticamente idéntica de la bacteria parental, podríamos imprimir en cada vuelta de reproducción el cartel ‘Habemus clon!’. Entonces, suponiendo que nuestra célula se reproduce 20 veces, podemos construir el siguiente código:
 
+```python
 for i in range(0,20):
 	print('¡Habemus clon!')
+```
 
 El programa que acabamos de crear tiene un bucle ‘for’, que consiste en un for, una variable cambiante (en nuestro caso i), un in y una lista de cosas (un rango de números) que van a ser los valores que tomará nuestra variable i. La función range() permite crear de forma rápida y sencilla una lista de números que comienza en el primero y finaliza antes del último. Nuestro bucle puede ser leído, entonces, como: para la variable i, tomando valores entre 0 y 49, imprimí cada vez en la pantalla el mensaje ‘Habemus clon!’.
 
-RETO VIII: Si nos ponemos un poco más estrictos, y siguiendo con el tema de los clones de bacterias, el programa que creamos antes tiene algunas fallas ‘numéricas’: en cada vuelta de división celular binaria se generarán dos clones, no uno. ¿Podrías escribir un programa que imprima ‘¡Somos 2 clones nuevos!’ en cada una de 20 vueltas?
+>
+>RETO VIII: Si nos ponemos un poco más estrictos, y siguiendo con el tema de los clones de bacterias, el programa que creamos antes tiene algunas fallas ‘numéricas’: en cada vuelta de división celular binaria se generarán dos clones, no uno. ¿Podrías escribir un programa que imprima ‘¡Somos 2 clones nuevos!’ en cada una de 20 vueltas?
 ¡Compartinos tu código en nuestro grupo de Facebook ‘Talleres de programación Orientada a la Biologia - SBG_UNQ’!
+>
+> RETO IX: Si ahora queremos hacer nuestro programa un poco más estricto, por cada vuelta deberíamos sumar el total de células que tenemos e imprimir ese número en el mensaje. Entonces, por ejemplo, como en la primer vuelta tenemos dos células, imprimimos como mensaje ‘¡Somos 2 clones!’ , pero en la segunda vuelta serán en total 4 células y el mensaje a imprimir debería ser ‘¡Somos 4 clones!’. ¿Podrías escribir esta modificación del programa?
+>
 
-RETO IX: Si ahora queremos hacer nuestro programa un poco más estricto, por cada vuelta deberíamos sumar el total de células que tenemos e imprimir ese número en el mensaje. Entonces, por ejemplo, como en la primer vuelta tenemos dos células, imprimimos como mensaje ‘¡Somos 2 clones!’ , pero en la segunda vuelta serán en total 4 células y el mensaje a imprimir debería ser ‘¡Somos 4 clones!’. ¿Podrías escribir esta modificación del programa?
-¡Compartinos tu código en nuestro grupo de Facebook ‘Talleres de programación Orientada a la Biologia - SBG_UNQ’!
+<details>
+  <summary>PISTAS</summary>
 
 PISTA I: Para la nueva variante del programa tené en cuenta lo que vimos antes para imprimir strings:
 el_resultado = 'El resultado de la cuenta es %s'
@@ -502,18 +515,26 @@ print(el_resultado %5)
 
 PISTA II: Puede serte útil generar una variable antes del loop que se llame ‘células’, y que vaya tomando distintos valores en cada vuelta del loop.
 
+</details>
 
-Al infinito y más allá...
-Como ya vimos los bucles for también se pueden escribir usando listas. En tal caso los valores que tome nuestra variable i serán los elementos de nuestra lista. Ahora bien, en general la construcción de programas para su uso científico implican creaciones más complejas. Nuestros programas deben no solo repetir ciertos pasos (un bucle for), sino también tomar decisiones (condiciones if); y todo eso en una secuencia ordenada de pasos que le permita ir ejecutando ciertas órdenes condicionadas a lo que se encuentre en el camino. Esto es lo que se conoce como ‘anidado’: escribir dentro de un bucle for una condición if, tal que nuestro programa pueda tomar distintas decisiones según la situación o elemento con que se encuentra. 
+
+## Al infinito y más allá...
+
+Como ya vimos los bucles for también se pueden escribir usando listas. En tal caso los valores que tome nuestra variable i serán los elementos de nuestra lista. Ahora bien, en general la construcción de programas para su uso científico implican creaciones más complejas. Nuestros programas deben no solo repetir ciertos pasos (un bucle for), sino también tomar decisiones (condiciones if); y todo eso en una secuencia ordenada de pasos que le permita ir ejecutando ciertas órdenes condicionadas a lo que se encuentre en el camino. Esto es lo que se conoce como ‘anidado’: escribir dentro de un bucle for una condición if, tal que nuestro programa pueda tomar distintas decisiones según la situación 
+o elemento con que se encuentra. 
+
 Veámos cómo usar el ‘anidado’ en un ejemplo concreto y sencillo. Algo que actualmente le quita el sueño a muchos científicos es la presencia de vida en otros planetas, que se estima está limitada a la presencia de agua líquida en dicho planeta. Imaginemos entonces, que dada la lista de planetas de nuestro sistema solar quisiéramos diferenciar los que no tienen ni rastro de agua de los que sí. Dada nuestra lista de planetas, si se conoce que uno de esos planetas presenta agua líquida en su superficie, le pediremos a nuestro programa que nos lo comunique. Recientemente se descubrió la presencia de agua líquida en Marte, por lo que nuestro programa debería resaltar tanto la Tierra como Marte como planetas con posibilidad de vida. Entonces nuestro programa debería tener los siguientes pasos:
-Definir la lista de planetas (en cualquier orden, o por qué no, por su cercanía al sol).
-Recorrer la lista de planetas:
-si el planeta es Marte o la Tierra,  imprimir ‘Planeta apto para la vida como la conocemos’
-si, por el contrario, el planeta no es Marte o la Tierra debe imprimir: ‘No apto para la vida como la conocemos…¿una vida distinta? quién sabe!’
+
+- Definir la lista de planetas (en cualquier orden, o por qué no, por su cercanía al sol).
+- Recorrer la lista de planetas:
+	* si el planeta es Marte o la Tierra,  imprimir ‘Planeta apto para la vida como la conocemos’
+	* si, por el contrario, el planeta no es Marte o la Tierra debe imprimir: ‘No apto para la vida como la conocemos…¿una vida distinta? quién sabe!’
+
 Veamos entonces cómo quedaría el código:
 
-planetas = ['Mercurio', 'Venus', 'Tierra', 'Marte', 'Jupiter', 'Saturno', 'Urano', 'Neptuno']
 
+```python
+planetas = ['Mercurio', 'Venus', 'Tierra', 'Marte', 'Jupiter', 'Saturno', 'Urano', 'Neptuno']
 
 for planeta in planetas:
     if planeta == 'Marte':
@@ -522,9 +543,11 @@ for planeta in planetas:
         print(planeta + ' es un planeta apto para la vida como la conocemos')
     else:
         print(planeta + ' es un planeta no apto para la vida como la conocemos… ¿Una vida distinta? ¡Quién sabe!')
+```
 
-Repasemos un poco lo que dice nuestro programa: para cada  planeta de la lista de planetas (for planeta in planetas), si el planeta es Marte (if planeta == ‘Marte’) imprimo el cartel distintivo de una planeta habitable (print(i + ‘es un planeta apto para la vida como la conocemos’)). Hago lo mismo si el planeta es la Tierra. En caso contrario, imprimimos un cartel esperanzador que nos recuerde que no hay agua en ese planeta, pero que siempre es posible hallar una biología con otras lógicas de funcionamiento (print( i + ‘ es un planeta no apto para la vida como la conocemos… ¿Una vida distinta? ¡Quién sabe!’)). Prestá atención a los espacios luego de los dos puntos (:) del bucle for y de la sentencia if; recordá que estos espacios son importantes para que Python siga en un orden correcto las órdenes que le damos. En caso de no respetar estos espacios, Python nos hará saber que está disconforme y nos arrojará un error: IndentationError: expected an indented block.
+Repasemos un poco lo que dice nuestro programa: para cada  planeta de la lista de planetas (for planeta in planetas), si el planeta es Marte (```python if planeta == ‘Marte’```) imprimo el cartel distintivo de una planeta habitable (print(i + ‘es un planeta apto para la vida como la conocemos’)). Hago lo mismo si el planeta es la Tierra. En caso contrario, imprimimos un cartel esperanzador que nos recuerde que no hay agua en ese planeta, pero que siempre es posible hallar una biología con otras lógicas de funcionamiento (print( i + ‘ es un planeta no apto para la vida como la conocemos… ¿Una vida distinta? ¡Quién sabe!’)). Prestá atención a los espacios luego de los dos puntos (:) del bucle for y de la sentencia if; recordá que estos espacios son importantes para que Python siga en un orden correcto las órdenes que le damos. En caso de no respetar estos espacios, Python nos hará saber que está disconforme y nos arrojará un error: IndentationError: expected an indented block.
 
+>
 >RETO X: ¿Te animás a pensar tus propios programas?¿Estás listo para un desafío? ¡Anotate en el Concurso de Bioinformática para escuelas secundarias! Además, no te olvides de realizar la encuesta así sabemos cómo mejorar nuestros talleres.
 >
 
@@ -534,17 +557,22 @@ Python es un lenguaje muy versátil que nos permite hacer desde simulaciones y p
 **Un último secreto!**
 ¿Es posible pasar del “línea a línea” a un programa o script? Claro que si!! El primer paso para ello es unir todos los comandos y órdenes en un archivo de texto. Por lo que será necesario identificar cómo abrir el editor de texto, como guardar el script que creamos y cómo ejecutar nuestro script. De esta manera además no necesitamos volver a escribir nuestro programa cada vez que lo necesitemos!
 
-**PARA TENER EN CUENTA**: En el caso de iOS la aplicación corre a través de la ejecución scripts, por lo que esta sección es innecesaria.
+**PARA TENER EN CUENTA**: 
+
+En el caso de iOS la aplicación corre a través de la ejecución scripts, por lo que esta sección es innecesaria.
 
 Veamos un ejemplo de cómo hacerlo con QPython3:
 Abrimos el editor de la aplicación desde la pantalla principal. 
 Se abrirá un editor de texto donde podremos escribir el script que queremos ejecutar.
 Escribe por ejemplo:
+
+```python
 a = 2
 c = 3
 print(a+c)
-Es importante que recordemos guardarlo en una carpeta para poder usarlo en otro momento. Para guardarlo en una carpeta se utiliza el botón con forma de diskette. 
+```
 
+Es importante que recordemos guardarlo en una carpeta para poder usarlo en otro momento. Para guardarlo en una carpeta se utiliza el botón con forma de diskette. 
 
 
 Guarda tu script en una carpeta, por ejemplo, “scripts_3”. . ¡Atención! Siempre al final del nombre que demos a nuestro script debemos usar la extensión “.py”, como en el ejemplo de la foto: “ejemplo.py”
