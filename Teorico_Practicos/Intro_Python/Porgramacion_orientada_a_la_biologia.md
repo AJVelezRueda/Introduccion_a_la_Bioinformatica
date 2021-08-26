@@ -229,7 +229,7 @@ print(d)
   
    ¿Qué pasa cuando generamos una variable? Al definir una variable estamos poniéndole nombre a un lugarcito en la memoria de la computadora, para guardar allí un valor dado. Podemos definir más de una variable con el mismo valor: cada una de estas variables corresponderá a un lugar distinto de la memoria. Sin embargo, al guardar dos valores distintos en una misma variable, lo que estaremos haciendo es redefinir la variable, asignándole un nuevo valor (y causando que “olvide” el valor asignado inicialmente). Veamos un ejemplo:
 
-<details>
+</details>
 
 ```python
 b = “hola” 
@@ -336,7 +336,7 @@ print(palabra == lo_mismo)
   <summary>DUDAS FRECUENTES:</summary>
   
   Todos los retos se encuentran resueltos en github https://github.com/AJVelezRueda/Resolucion_Guia_taller_programacion_orientada_a_la_Biologia .
-<details>
+</details>
 
 
 **Fetas de texto: dame doscientos!**
@@ -515,7 +515,7 @@ print("¿Qué flasheas? ¡Es normal!")
   <summary>DUDAS FRECUENTES:</summary>
 Cuando ejecutamos una sentencia condicional o un loop, las aplicaciones de Android y Windows reconocen automáticamente los dos puntos que son característicos de la sintaxis de Python. Al ingresar un “Enter” para escribir la siguiente línea veremos tres puntos en lugar del prompt de Python, y esto significa que espera el resto que el resto del código sea ingresado. Una vez escrito todo el código, para ser ejecutado, debemos dar doble “Enter”. Las indentaciones (o sangrías) necesarias o características deben ser escritas manualmente usando el espaciador. Estas pueden ser de 4 espacios (que es lo convencional) por ejemplo o 2 espacios, pero es importante respetar el modo en que escribimos la sangría a lo largo del código. La aplicación recomendada para iOS, sin embargo, reconoce automáticamente la necesidad de una indentación, por lo que no hará falta escribirla.
 
-<details>
+</details>
 
 >🚨 PARA TENER EN CUENTA: Cualquier error en la sintaxis, ya sea la ausencia de los dos puntos (:) o la falta de la indentación requerida, generan un error al ser ejecutados de tipo  ‘syntax error’ o ‘Indentation error’ respectivamente. Es importante hacer énfasis en la sintaxis en estos ejemplos y la coherencia en la escritura dentro del código.
 
