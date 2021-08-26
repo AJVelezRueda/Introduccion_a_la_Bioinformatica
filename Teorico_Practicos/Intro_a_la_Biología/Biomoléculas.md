@@ -20,11 +20,14 @@ Ahora bien, para comenzar desde lo micro a lo macro podríamos pensar en las cé
 >
 
 [2. Biomoléculas](#1_biomolec)
+
+
 La química de los organismos vivos se organiza alrededor del carbono. Este elemento tiene la capacidad de formar enlaces sencillos con hidrógeno o dobles con átomos de oxígeno o/y nitrógeno; dos átomos de carbono pueden compartir dos o hasta tres enlaces con otros átomos de carbono.  Los átomos de carbono enlazados covalentemente pueden formar cadenas lineales, con ramificaciones o estructuras circulares; formando los esqueletos sobre los que se añaden grupos de otros átomos “grupos funcionales” que le confieren las características funcionales específicas.
 La disposición espacial de los grupos sustituyentes de una molécula orgánica determinan su configuración, dos isómeros conformacionales solo pueden ser inter convertidos rompiendo enlaces. Los dobles enlaces, alrededor de los que no existe libertad de rotación; y los centros quirales, alrededor de los cuales los sustituyentes se disponen según una secuencia específica definen la configuración de una molécula. Y ya que las interacciones moleculares entre biomoléculas son estereoespecíficas, esta característica se hace relevante para su función. La conformación molecular se refiere, entonces, a la disposición espacial de los grupos sustituyentes que tiene libertad de movimiento/de adoptar distintas disposiciones en el espacio, y según estas conformaciones en el espacio varíen, la función y/o funcionalidad de una dada molécula variará.
 Se llaman biomoléculas a todas las moléculas que intervienen en la estructura y funcionamiento del organismo vivo, lo mismo sean grandes moléculas poliméricas (macromoléculas) como los hidratos de carbono, los lípidos, las proteínas y los ácidos nucleicos o sus monómeros: monosacáridos, ácidos grasos, aminoácidos y nucleótidos, así como sus intermediarios metabólicos. Sin tener que entrar en el detalle químico de la estructura de los monómeros: (monosacáridos, ácidos grasos, aminoácidos y nucleótidos) que se verá más adelante conviene tener una idea inicial de cómo son las grandes moléculas de los organismos vivos, los carbohidratos, los lípidos, las proteínas y los ácidos nucleicos. Cada una de estas macromoléculas se encuentra formada por el encadenamiento de los monómeros, unidos entre sí mediante enlaces característicos. 
 
 [3. Proteínas](#3_proteinas)
+
 Las proteínas son polímeros de deshidratación de los aminoácidos. Las proteínas pueden estar constituidas por una o más cadenas peptídicas, que se denominan subunidades iguales o diferentes. Tienen, además, una composición aminoacídica característica y algunas pueden tener grupos químicos adicionales, no aminoacídicos (Grupos prostéticos).  
 Los aminoácidos son anfolitos, con una estructura básica que cuenta con un grupo amino (NH2, básico) y un grupo carboxílico (COOH, ácido). Siempre hay al menos un átomo de carbono entre el grupo amino y el grupo carboxílico. La fórmula general de los aminoácidos se representa como sigue:
 
@@ -39,7 +42,7 @@ H3N+ -C-H
 Los aminoácidos difieren entre sí por la naturaleza de sus grupos R, conformando así una lista de 22 aminoácidos que se combinan para formar a todas las proteínas presentes en los seres vivos. La unión de aminoácidos mediante un enlace peptídico, que da lugar a las cadenas peptídicas, se produce entre el grupo COOH de un aminoácido y el grupo NH2 de otro. Nuestro cuerpo utiliza solo 20 y puede sintetizar 10 de estos, y por ello reciben el nombre de aminoácidos esenciales constituyéndose en componentes indispensables de la dieta diaria de un ser humano. 
 Por tener un centro quiral, existen dos estereoisómeros D y L (levógiros o dextrógiros), cuyo nombre deviene de su actividad óptica de desviar la luz, aunque en los organismos vivos encontramos principalmente los L isómeros. Estos además poseen propiedades ácido-base y en algunos casos poseen grupos ionizables en sus cadenas laterales: ácido aspártico y glutámico, arginina, lisina, histidina, etc. 
 
-![Tabla periódica de Aminoácidos](./assets/img/tabla_aminoacidos.png "en esta tabla se pueden observar los aminoácidos con sus estructuras químicas y con el código uni-letra en el margen superior izquierdo. En rojo se muestran los aminoácidos ácidos (con grupos COOH en sus cadenas laterales), en rosa los aminoácidos polares, en azul los básicos (con grupos NH2 en sus cadenas laterales) y en celeste los aminoácidos apolares.")
+![Tabla periódica de Aminoácidos](tabla_aminoacidos.png "en esta tabla se pueden observar los aminoácidos con sus estructuras químicas y con el código uni-letra en el margen superior izquierdo. En rojo se muestran los aminoácidos ácidos (con grupos COOH en sus cadenas laterales), en rosa los aminoácidos polares, en azul los básicos (con grupos NH2 en sus cadenas laterales) y en celeste los aminoácidos apolares.")
 
 
 
@@ -75,9 +78,11 @@ Dijimos que el hecho de que una proteína adquiera una u otra estructura depende
 
 
 [4. Ácidos Nucleicos](#4_acnuc)
+
+
 Los ácidos nucleicos constituyen el material genético de los organismos y son necesarios para el almacenamiento y la expresión de la información genética. Existen dos tipos de ácidos nucleicos, química y estructuralmente distintos: el ácido desoxirribonucleico (ADN) y el ácido ribonucleico (ARN); ambos tienen la misma estructura general en todos los seres vivos. Desde el punto de vista químico, los ácidos nucleicos son macromoléculas formadas por polímeros lineales de nucleótidos, unidos por enlaces éster de fosfato, sin periodicidad aparente. Un nucleótido es una molécula orgánica compuesta por tres componentes: una base nitrogenada (purina o pirimidina), un azúcar (pentosa) y un grupo fosfato.
 
-![Estructura base de un nucleótido](./assets/img/nucleotido.jpg "Compuesto en forma genérica por tres componentes: una base nitrogenada (purina o pirimidina), un azúcar (pentosa) y un grupo fosfato.")
+![Estructura base de un nucleótido](nucleotido.jpg "Compuesto en forma genérica por tres componentes: una base nitrogenada (purina o pirimidina), un azúcar (pentosa) y un grupo fosfato.")
 
 
 Dentro de la célula, el ADN guarda la información necesaria para construir las proteínas. El ADN es una cadena formada por muchas combinaciones de cuatro nucleótidos A, C, G y T, que difieren entre sí en la base nitrogenada que lo compone. Las distintas combinaciones le otorgan distintas funcionalidades. Para que la información llegue del ADN a las proteínas, el mensaje genético es copiado desde el ADN a otra molécula, el ARN. El ARN es muy similar al ADN pero se diferencian por el azúcar (Pentosa) que llevan: ribosa y desoxirribosa, respectivamente. 
@@ -100,6 +105,8 @@ La estructura terciaria es un plegamiento complicado sobre la estructura secunda
 Existen diferencias en las estructuras del ADN y ARN, el primero será una cadena doble, mientras que el ARN se encuentra por lo general como una cadena sencilla (algunos virus pueden presentar ARN doble hebra.. ¡Malditos!). Se conocen varios tipos de ARN y todos ellos participan de una u otra manera en la síntesis de las proteínas. Ellos son: ARN mensajero (ARNm); el ARN ribosomal (ARNr), que forma el armazón de los ribosomas; el ARN de transferencia (ARNt) y small nuclear RNAs (snRNAs). Otros tipos incluyen microRNAs (miRNAs), pequeños de interferencia (siRNAs), etc. 
 
 [5. Barrilete cósmico ¿De qué planeta viniste?](#5_barrilete)
+
+
 Ahora bien, no es una cuestión menor la obtención de la información biológica para su procesamiento computacional ¿De dónde viene esa información? ¿Dónde encontramos las secuencias de proteínas o su función en la célula; o inclusive información relativa a pacientes infectados con CODVID-19? 😱
 
 En términos generales científic@s de todo el mundo desarrollan diversos conocimientos relacionados con los seres vivos. Estos conocimientos se obtienen a base de observaciones y experimentación. Los datos y conclusiones obtenidos son compartidos entre científicos de forma organizada, ya sea por medio de publicaciones en revistas super-archi-nerds o, por ejemplo, a través de Bases de datos disponibles en internet. Una base de datos (DB por sus siglas en inglés) es una colección estructurada de datos; en particular, una base de datos biológica es una colección de información relacionada con seres vivos. Estos datos provienen de experimentos científicos, literatura publicada, análisis computacional, etc. 
