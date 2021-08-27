@@ -330,7 +330,7 @@ print(palabra == lo_mismo)
 
 >PARA PENSAR: ¿Qué pasa si el contenido de la variable lo_mismo comienza con mayúsculas?
 
->RETO III: Digamos que el ADN no es más que un mensaje en clave, que debe ser descifrado o interpretado para la síntesis de proteínas. El mensaje está escrito por una secuencia determinada de 4 nucleótidos distintos representados por las letras A, T, G y C. Dentro de la célula, el mensaje es transportado por otra molécula, el ARN, muy similar al ADN pero con U en vez de T. En este mensaje, cada triplete o grupo de tres letras del ARN se denomina codón, y cada aminoácido de las proteínas está codificado por uno o varios codones. Así por ejemplo el codón ‘AUG’ codifica para el aminoácido Metionina , el codón ‘AAA’ para Lisina, el codón ‘CUA’ para Leucina, etc. 
+>RETO III: Digamos que el ADN no es más que un mensaje en clave, que debe ser descifrado o interpretado para la síntesis de proteínas. El mensaje está escrito por una secuencia determinada de 4 nucleótidos distintos representados por las letras A, T, G y C. Dentro de la célula, el mensaje es transportado por otra molécula, el ARN, muy similar al ADN pero con U en vez de T. En este mensaje, cada triplete o grupo de tres letras del ARN se denomina codón, y cada aminoácido de las proteínas está codificado por uno o varios codones. Así por ejemplo el codón ‘AUG’ codifica para el aminoácido Metionina , el codón `‘AAA’` para Lisina, el codón ‘CUA’ para Leucina, etc. 
 ¿Podrías escribir una cadena de ARN que codifique para el péptido (una cadena corta de aminoácidos) `‘Met-Lis-Lis-Lis-Leu-Leu-Met’` combinando las variables  ` met = ‘AUG’ `, `lis = ‘AAA’` y `leu = ‘CUA’`  utilizando operadores matemáticos? 
 
 
@@ -493,9 +493,9 @@ else:
 	aquí van las órdenes que se ejecutan si la condición es falsa
 ```
 
-Como verás una sentencia if se compone de un ‘if’, que significa “si”, seguido de una ’condición’ y terminando con dos puntos (:). Una condición es un cálculo de programación cuyo resultado es verdadero (True) o falso (False), y se crea utilizando los operadores relacionales que ya conocés (== , >, <, !=). La línea siguiente son las órdenes a ejecutar si la condición es cierta, y siempre comienza con un tab. La tercera línea consiste de una sentencia ‘else’, que significa “de lo contrario”, y dos puntos (:). En la última línea se escriben las órdenes a ejecutar en caso de que la condición if no sea cierta, también comenzando siempre con un tab. 
+Como verás una sentencia if se compone de un `‘if’`, que significa “si”, seguido de una ’condición’ y terminando con dos puntos (:). Una condición es un cálculo de programación cuyo resultado es verdadero (True) o falso (False), y se crea utilizando los operadores relacionales que ya conocés (`== , >, <, !=`). La línea siguiente son las órdenes a ejecutar si la condición es cierta, y siempre comienza con un tab. La tercera línea consiste de una sentencia ‘else’, que significa “de lo contrario”, y dos puntos (:). En la última línea se escriben las órdenes a ejecutar en caso de que la condición if no sea cierta, también comenzando siempre con un tab. 
 Es muy importante dejar la tabulación o sangría (un espacio en blanco, insertado con la tecla tab; o cuatro espacios con el ingresados espaciador) en las líneas correspondientes, ya que le permite al intérprete de Python saber cuándo y en qué orden debe ejecutar cada cosa. De olvidar esta sangría, Python te hará saber que no le gustó lo que escribiste, con el mensaje IndentationError: expected an indented block.
-Veamos un ejemplo para poder comprender mejor las sentencias if/else: imaginemos que formamos  parte del departamento de Bioinformática del Centro Nacional de Frikiadas Atómicas (CNFA), que se encuentra enfocado en la poco creíble investigación sobre la ‘invisibilidad’. Sabemos como investigadores eruditos/as que existen resultados poco confiables que apuntan a que la presencia de la secuencia de nucleótidos ‘ACATAAA’ podría estar asociada a la invisibilidad en la rana marciana de pelo enrulado. Queremos hacer un aporte a la ciencia creando un programa que detecte este marcador de invisibilidad en una secuencia dada, por ejemplo: ‘ACAGAAAGTTAATGGAAGGACATAAAAGTTATATCA’. Por lo que nos proponemos escribir un programa que efectúe los siguientes pasos:
+Veamos un ejemplo para poder comprender mejor las sentencias if/else: imaginemos que formamos  parte del departamento de Bioinformática del Centro Nacional de Frikiadas Atómicas (CNFA), que se encuentra enfocado en la poco creíble investigación sobre la ‘invisibilidad’. Sabemos como investigadores eruditos/as que existen resultados poco confiables que apuntan a que la presencia de la secuencia de nucleótidos ‘ACATAAA’ podría estar asociada a la invisibilidad en la rana marciana de pelo enrulado. Queremos hacer un aporte a la ciencia creando un programa que detecte este marcador de invisibilidad en una secuencia dada, por ejemplo: `‘ACAGAAAGTTAATGGAAGGACATAAAAGTTATATCA’`. Por lo que nos proponemos escribir un programa que efectúe los siguientes pasos:
 
 1) definimos nuestra variable  sec 
 
@@ -567,7 +567,7 @@ else:
 
 **¡Alguien quiere pensar en las ranas!**
 
-Descubrimos que las ranas que contienen la secuencia de ACATCGA y la secuencia GTACTA, tienen además una pigmentación anómala, generando como consecuencia que este tipo de ranas tengan lunares blancos en sus patas.
+Descubrimos que las ranas que contienen la secuencia de `ACATCGA` y la secuencia GTACTA, tienen además una pigmentación anómala, generando como consecuencia que este tipo de ranas tengan lunares blancos en sus patas.
 Ahora bien, para los casos en donde se debe analizar más de una condición a la vez y todas deben ser verdaderas, existe un operador llamado and. Este operador se coloca entre las condiciones a analizar. "And" en español se traduce como "y", eso quiere decir que la condición1 Y la condición2 se deben encontrar o deben ser verdaderas para que se ejecuten las siguientes órdenes. La sintaxis general es la siguiente:
 
 ```python
@@ -618,7 +618,7 @@ else:
 ```
 
 >
->RETO VII: Ya que encontramos el espécimen de rana con pelo en marte, nos gustaría contrastar sus características con las ranas terrestres. Sabiendo que el gen de la proteína diminuta es  ‘ATGGAAGTTGGAATCCAAGTTGGA’ y el gen de una proteína similar de rana terrestre es ‘ATGGAAGTTAATGGAAGTTGGAGGAGA’ ¿podés crear un programa que compare la longitud de ambos genes y según cuál sea más grande nos imprima un mensaje informándonos el resultado?
+>RETO VII: Ya que encontramos el espécimen de rana con pelo en marte, nos gustaría contrastar sus características con las ranas terrestres. Sabiendo que el gen de la proteína diminuta es  `‘ATGGAAGTTGGAATCCAAGTTGGA’` y el gen de una proteína similar de rana terrestre es `‘ATGGAAGTTAATGGAAGTTGGAGGAGA’` ¿podés crear un programa que compare la longitud de ambos genes y según cuál sea más grande nos imprima un mensaje informándonos el resultado?
 >
 
 ¡Compartinos tu código en nuestro grupo de Facebook ‘Talleres de programación Orientada a la Biologia - SBG_UNQ’! Buscanos en Twitter! 
@@ -642,7 +642,7 @@ Por suerte, eso se escribe en Python de una forma muy intuitiva:
 Definimos un iterable o variable que podremos ir recorriendo:
 palabra = 'BIOINFO'
 
-Recorremos cada caracter de la cadena 'BIOINFO', para imprimir la frase 'Dame una ____ ! Te doy la ___ '. Hacemos que para cada caracter (for i) en (in) el iterable (palabra), se imprima el caracter:
+Recorremos cada caracter de la cadena `'BIOINFO'`, para imprimir la frase `'Dame una ____ !` Te doy la ___ '. Hacemos que para cada caracter (`for i`) en (in) el iterable (palabra), se imprima el caracter:
 
 
 ```python
@@ -661,7 +661,7 @@ for i in palabra:
 print('¿Qué se formó? ' + palabra)
 ```
 
-El programa que acabamos de crear tiene un bucle for. Como hemos visto un  bucle for consiste en un for, una variable (en nuestro caso i) que cambia en cada repetición del ciclo, separada por un in o “en” y un rango de números o cualquier variable ‘iterable’ (que pueda dividirse en partes), cuyos elementos van a ser los valores que tomará nuestra variable i. Nuestro bucle puede ser leído, entonces, como: para todas las letras i de la palabra ‘BIOINFO’, imprimí el mensaje: 'Dame una ' + i +', te doy la '+ i + '!'. 
+El programa que acabamos de crear tiene un bucle for. Como hemos visto un  bucle for consiste en un for, una variable (en nuestro caso i) que cambia en cada repetición del ciclo, separada por un in o “en” y un rango de números o cualquier variable ‘iterable’ (que pueda dividirse en partes), cuyos elementos van a ser los valores que tomará nuestra variable i. Nuestro bucle puede ser leído, entonces, como: para todas las letras i de la palabra `‘BIOINFO’`, imprimí el mensaje: `'Dame una ' + i +', te doy la '+ i + '!'`. 
 Para construir el mensaje de salida, concatenamos las distintas partes de nuestro mensaje con un ‘+’. ¡Ojo! Para que nuestro mensaje pueda ir cambiando en cada vuelta, utilizamos la variable i dentro del mensaje, notando que i esté sin comillas ya que es una variable que va tomando distintos valores cada vez. Recordá que es muy importante dejar una tabulación o sangría (un espacio en blanco, insertado con la tecla tab; o cuatro espacios) en el comienzo de la línea de abajo; de lo contrario Python te hará saber que no le gustó, con el cartel: IndentationError: expected an indented block.
 
 ## Divide y loopearás!...
