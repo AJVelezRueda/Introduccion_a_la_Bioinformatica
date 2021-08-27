@@ -694,6 +694,7 @@ PISTA II: Puede serte útil generar una variable antes del loop que se llame ‘
 </details>
 
 
+
 ## Al infinito y más allá...
 
 Como ya vimos los bucles for también se pueden escribir usando listas. En tal caso los valores que tome nuestra variable i serán los elementos de nuestra lista. Ahora bien, en general la construcción de programas para su uso científico implican creaciones más complejas. Nuestros programas deben no solo repetir ciertos pasos (un bucle for), sino también tomar decisiones (condiciones if); y todo eso en una secuencia ordenada de pasos que le permita ir ejecutando ciertas órdenes condicionadas a lo que se encuentre en el camino. Esto es lo que se conoce como ‘anidado’: escribir dentro de un bucle for una condición if, tal que nuestro programa pueda tomar distintas decisiones según la situación 
@@ -727,10 +728,14 @@ Repasemos un poco lo que dice nuestro programa: para cada  planeta de la lista d
 >RETO X: ¿Te animás a pensar tus propios programas?¿Estás listo para un desafío? ¡Anotate en el Concurso de Bioinformática para escuelas secundarias! Además, no te olvides de realizar la encuesta así sabemos cómo mejorar nuestros talleres.
 >
 
+
+
 **¿Qué más podemos hacer con Python?**
+
 Python es un lenguaje muy versátil que nos permite hacer desde simulaciones y programas con cálculos complejos, hasta aplicaciones web y programas de celular, pasando por minería de datos, etc. Todo es de libre acceso, tanto librerías como tutoriales (en la página de Python Argentina, entre otras, podés encontrar libros, tutoriales, scripts, ¡lo que necesites!). Siempre pueden consultarnos ante cualquier duda. ¡Recordá que el truquito del buen programador es saber buscar en Google! Todos los errores que te aparezcan al ejecutar tus programas podés buscarlos en la web o en páginas como Stack Overflow, una página donde programadores de todos los lenguajes hacen consultas y se puede encontrar información. 
 
 **Un último secreto!**
+
 ¿Es posible pasar del “línea a línea” a un programa o script? Claro que si!! El primer paso para ello es unir todos los comandos y órdenes en un archivo de texto. Por lo que será necesario identificar cómo abrir el editor de texto, como guardar el script que creamos y cómo ejecutar nuestro script. De esta manera además no necesitamos volver a escribir nuestro programa cada vez que lo necesitemos!
 
 
