@@ -1,10 +1,10 @@
 # TALLER “PROGRAMACIÓN ORIENTADA A LA BIOLOGÍA”
 > Estas guías fueron adaptadas de las guías del diseñadas para el proyecto de extensión [“LA BIOINFORMÁTICA VA A LA ESCUELA”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006473)
 
-## ¡Comencemos! Pero, ¿cómo?
+## ¡Comencemos! Pero, ¿cómo? 🤔
 Podemos comenzar con algunas definiciones que nos ayuden a entender un poco más de qué se trata este taller:
 
-**¿En qué consiste una computadora?**
+**¿En qué consiste una computadora?** 💻
 
 Una computadora está formada por el Hardware (que son todas las partes o elementos físicos que la componen) y el Software (que son todas las instrucciones para el funcionamiento del Hardware). El sistema operativo es el principal software de la computadora, pues proporciona una interfaz con el usuario y permite al resto de los programas una interacción correcta con el hardware.
 
@@ -49,7 +49,7 @@ Esto significa que, como programadores de Python (o cualquier otro lenguaje), no
 
 Tu smartphone, tu Playstation o Smart TV no serían muy útiles sin programas (aplicaciones, juegos, etc) para hacerlas funcionar. Cada vez que abrimos un documento para hacer un trabajo práctico para la escuela, o usamos el WhatsApp para chatear con nuestros amigos, estamos usando programas que interpretan lo que deseamos realizar, como por ejemplo cambiar un color de fuente, aumentar el tamaño de letra o enviar un mensaje. Estos programas le comunican nuestras órdenes a la PC o teléfono para que las ejecuten. Aprendiendo a programar podrías hacer una gran diversidad de cosas: desde escribir tus propios juegos y aplicaciones para celular, combinar el uso de varios programas en forma secuencial o leer millones de textos sin abrir un solo libro… hasta analizar el genoma de un organismo o miles de estructuras de proteínas y así sacar conclusiones de relevancia biológica.  Si bien existen muchas herramientas hoy en día para hacerlo, el poder construir tus propias herramientas te dará la posibilidad de aplicarlas a la situación particular que se te presente y necesites resolver. 
 
-**¿Pero, en qué se relacionan una vaca y una computadora?**
+**¿Pero, en qué se relacionan una vaca y una computadora?**🐄
 
 La bioinformática es una disciplina científica destinada a la aplicación de métodos computacionales al análisis de datos biológicos, para poder contestar numerosas preguntas. Su objeto de trabajo son entidades biológicas: ADN, proteínas, organismos completos, sus poblaciones, etc. Las tecnologías computacionales permiten, entre otras cosas, el análisis en plazos cortos de gran cantidad de datos (provenientes de experimentos, bases de datos, etc.); así como la predicción de la forma o la función de las distintas moléculas, o la simulación del comportamiento de sistemas biológicos complejos como células y organismos…en este caso... LA VACA!! Así es como echando mano de la tecnología podemos percibir distintos procesos biológicos y poner en imágenes conceptos que pueden resultarnos de otra forma muy abstractos.
 
