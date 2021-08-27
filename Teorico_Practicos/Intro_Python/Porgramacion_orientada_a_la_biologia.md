@@ -113,9 +113,11 @@ El primer paso para poder hacer tu primer programa es abrir la consola de Python
 Ahora bien, es importante conocer nuestra herramienta de trabajo, en este caso nuestra PC o teléfono inteligente. ¿Podrías identificar qué parte de la computadora estaremos trabajando?
 
 **El principio de un comienzo**
+
 En todo proceso de aprendizaje los ‘errores’ tienen un rol muy importante: nos plantean nuevos interrogantes, nos acercan a nuevas hipótesis y sobre todo nos dan oportunidades para seguir aprendiendo. En la programación los ‘errores’ también importan, ¡y mucho! Son una suerte de comunicación con la máquina, que nos advierte cuando no funciona algo de lo que intentamos hacer. Existen distintos tipos de errores en Python y con cada tipo de error la máquina nos indica qué es lo que puede estar fallando de nuestro código. Por eso te pedimos que anotes todos los errores que puedan ir apareciendo durante tu trabajo en el taller o en casa y que los compartas con nosotros, para charlar entre todos acerca de  los conocimientos que se ponen en juego durante la resolución de estos problemas. Así que, no tengas miedo de equivocarte, ¡no se rompe nada! Y como diría la señorita Ricitos en su Autobús Mágico, a cometer errores, tomar oportunidades y rockear con Python, que donde termina la carretera comienza la aventura!
 
 **Tu primer programa**
+
 Una forma no muy original de aprender a escribir un primer programa en Python es simplemente abrir la consola, escribir lo siguiente y darle Enter:
 
 ```python
@@ -152,12 +154,12 @@ Vamos a probar algunos cálculos. Escribí en tu consola:
 
 En Python se pueden usar los siguientes sı́mbolos básicos de matemáticas, que en programación se llaman operadores:
 
-|Operación	|Operador | | | | | | | | | | | | |
-|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
-| Suma | + | | | | | | | | | | | | |
-| División | / | | | | | | | | | | | | |
-| Multiplicación | * | | | | | | | | | | | | |
-| Exponencial | ** | | | | | | | | | | | | |
+|Operación	|Operador | | | | | | | | | | 
+|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
+| Suma | + | | 
+| División | / | | 
+| Multiplicación | * | | 
+| Exponencial | ** | | 
 
 Si por ejemplo tomamos la siguiente operación:
 
@@ -273,8 +275,8 @@ print(edad_lola == edad_ana)
 ¿Qué resultado obtenés al comparar dos variables? Sí, los operadores relacionales no devuelven valores numéricos, sino que nos afirman (True) o rechazan (False) la hipótesis que hayamos puesto a prueba. En nuestro ejemplo la hipótesis es que la edad de Ana es igual a la de Lola y por eso Python nos devuelve False.
 Los operadores relacionales que se pueden usar en Python son:
 
-|Operación	|Operador | | | | | | | | | | | | |
-|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
+|Operación	|Operador | | | | | | | | | | |
+|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---		|
 | Igualdad | == | | | | | | | | | | | | |
 | Distinto | != | | | | | | | | | | | | |
 | Mayor | > | | | | | | | | | | | | |
