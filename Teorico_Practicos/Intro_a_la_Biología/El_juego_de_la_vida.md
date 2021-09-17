@@ -1,4 +1,4 @@
-# Biomoléculas: una breve introducción al nuestro mundo interior
+# El juego de la vida
 
 ##### Autora: Dra. Ana Julia Velez Rueda
 
@@ -28,7 +28,7 @@ La expresión génica es el proceso que permite obtener proteínas a partir de l
 La traducción es el proceso que ocurre en el citoplasma celular en el que la molécula de ARNm se decodifica (traduce) para generar una cadena específica de aminoácidos. La correspondencia existente entre la secuencia de nucleótidos del ARNm y los aminoácidos es lo que se denomina código genético. El código genético consiste, por lo tanto, en el sistema de tripletes de nucleótidos en el RNA (copiado a partir de DNA) que especifica el orden de los aminoácidos en una proteína. El código genético consiste en 64 combinaciones de tripletes (codones) y sus aminoácidos correspondientes. Los codones que se muestran aquí son los que puede presentar la molécula de mRNA. De los 64 codones, 61 especifican aminoácidos particulares. Los otros 3 codones son señales de detención, que determinan la finalización de la cadena.
 
 >
->PARA PENSAR: ¿Cuáles de los pasos descritos anteriormente deberías cambiar si habláramos de células procariotas?  🤔
+>**PARA PENSAR** 🤔: ¿Cuáles de los pasos descritos anteriormente deberías cambiar si habláramos de células procariotas?  
 >
 >🧗🏻‍♀️**DESAFIO II**: Dado el código genético como se muestra en la tabla:
 >

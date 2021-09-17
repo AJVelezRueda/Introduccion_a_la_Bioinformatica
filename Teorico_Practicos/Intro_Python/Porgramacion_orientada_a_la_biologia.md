@@ -275,12 +275,12 @@ print(edad_lola == edad_ana)
 ¿Qué resultado obtenés al comparar dos variables? Sí, los operadores relacionales no devuelven valores numéricos, sino que nos afirman (True) o rechazan (False) la hipótesis que hayamos puesto a prueba. En nuestro ejemplo la hipótesis es que la edad de Ana es igual a la de Lola y por eso Python nos devuelve False.
 Los operadores relacionales que se pueden usar en Python son:
 
-|Operación	|Operador | | | | | | | | | | |
-|-------------	|----------	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---		|
-| Igualdad | == | | | | | | | | | | | | |
-| Distinto | != | | | | | | | | | | | | |
-| Mayor | > | | | | | | | | | | | | |
-| Menor | < | | | | | | | | | | | | |
+|Operación	|Operador | | | | | | | | 
+|-------------	|----------	|---	|---	|---	|---	|---	|---	|---|
+| Igualdad | == | | | | | | | | | | 
+| Distinto | != | | | | | | | | | |
+| Mayor | > | | | | | | | | | |
+| Menor | < | | | | | | | | | | 
 
 
 ¿Has probado estos operadores con variables que contengan una palabra? Intentá crear dos variables cuyos valores sean “Ana” y “ana” y verificar si son iguales.  ¿Qué da?¿Por qué?
