@@ -51,3 +51,12 @@ La traducción es el proceso que ocurre en el citoplasma celular en el que la mo
 > 
 >¡El cielo es límite, a divertirse! 
 
+<details>
+  <summary>Bibliografía:</summary>
+Beadle, G.W. and Tatum, E.L. 1941. Genetic Control of Biochemical Reactions in Neurospora. Proceedings of the National Academy of Sciences of the United States of America 27(11), pp. 499–506.
+Lifton, R.P., Goldberg, M.L., Karp, R.W. and Hogness, D.S. 1978. The organization of the histone genes in Drosophila melanogaster: functional and evolutionary implications. Cold Spring Harbor Symposia on Quantitative Biology 42 Pt 2, pp. 1047–1051.
+Margulis and L. 1981. Symbiosis in cell evolution: Life and its environment on the early earth.
+Müller-Wille, S. 2010. Cell theory, specificity, and reproduction, 1837-1870. Studies in history and philosophy of biological and biomedical sciences 41(3), pp. 225–231.
+Smale, S.T. and Kadonaga, J.T. 2003. The RNA polymerase II core promoter. Annual Review of Biochemistry 72, pp. 449–479.
+Sustar, P. 2007. Crick’s notion of genetic information and the “central dogma” of molecular biology. The British journal for the philosophy of science 58(1), pp. 13–24.
+</details>
