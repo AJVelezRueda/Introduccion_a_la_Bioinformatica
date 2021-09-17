@@ -52,7 +52,7 @@ La traducción es el proceso que ocurre en el citoplasma celular en el que la mo
 >¡El cielo es límite, a divertirse! 
 
 <details>
-  <summary>Bibliografía:</summary>
+  <summary>Bibliografía</summary>
 Beadle, G.W. and Tatum, E.L. 1941. Genetic Control of Biochemical Reactions in Neurospora. Proceedings of the National Academy of Sciences of the United States of America 27(11), pp. 499–506.
 Lifton, R.P., Goldberg, M.L., Karp, R.W. and Hogness, D.S. 1978. The organization of the histone genes in Drosophila melanogaster: functional and evolutionary implications. Cold Spring Harbor Symposia on Quantitative Biology 42 Pt 2, pp. 1047–1051.
 Margulis and L. 1981. Symbiosis in cell evolution: Life and its environment on the early earth.
