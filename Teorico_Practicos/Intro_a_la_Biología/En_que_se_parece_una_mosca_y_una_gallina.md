@@ -2,7 +2,7 @@
 
 > Autora: Dra. Ana Julia Velez Rueda
 
-![Bases de datos de uso académico](notas_bases_datos.png "Bases de datos de uso académico...mucho más que un SQL")
+<img src=notas_bases_datos.png alt="Bases de datos de uso académico...mucho más que un SQL" height="850" width="500">
 
 El citocromo c es una proteína presente en la mayoría de los organismos e involucrada en la respiración aeróbica. En humanos y chimpancés está formado por los mismos 104 aminoácidos, ordenados exactamente igual. ¿Podríamos ver entonces qué relación guarda nuestra proteína con la de una mosca o un pollo, comparando sus secuencias? El primer paso para nuestra comparación entre organismos es buscar nuestras secuencias en las bases de datos. En el buscador general del NCBI [https://www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov) se pueden buscar, entre otras cosas, secuencias de ADN o proteínas. Como la comparación la haremos sobre la base de las proteínas de los organismos, debemos elegir en el menú desplegable la opción Protein; así estaremos indicando al buscador que acceda a la base de datos correspondientes a secuencias de proteínas.
 
