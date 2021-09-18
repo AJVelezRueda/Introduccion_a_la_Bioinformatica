@@ -2,22 +2,21 @@
 
 > Autora: Dra. Ana Julia Velez Rueda
 
-<img src=notas_bases_datos.png alt="Bases de datos de uso académico...mucho más que un SQL" height="850" width="500">
+<img src=notas_bases_datos.png alt="Bases de datos de uso académico...mucho más que un SQL" height="650" width="400">
 
-El citocromo c es una proteína presente en la mayoría de los organismos e involucrada en la respiración aeróbica. En humanos y chimpancés está formado por los mismos 104 aminoácidos, ordenados exactamente igual. ¿Podríamos ver entonces qué relación guarda nuestra proteína con la de una mosca o un pollo, comparando sus secuencias? El primer paso para nuestra comparación entre organismos es buscar nuestras secuencias en las bases de datos. En el buscador general del NCBI [https://www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov) se pueden buscar, entre otras cosas, secuencias de ADN o proteínas. Como la comparación la haremos sobre la base de las proteínas de los organismos, debemos elegir en el menú desplegable la opción Protein; así estaremos indicando al buscador que acceda a la base de datos correspondientes a secuencias de proteínas.
+El citocromo c es una proteína presente en la mayoría de los organismos e involucrada en la respiración aeróbica. En humanos y chimpancés está formado por los mismos 104 aminoácidos, ordenados exactamente igual. ¿Podríamos ver entonces qué relación guarda nuestra proteína con la de una mosca o un pollo, comparando sus secuencias? El primer paso para nuestra comparación entre organismos es buscar nuestras secuencias en las bases de datos. En el buscador general del [NCBI](https://www.ncbi.nlm.nih.gov) se pueden buscar, entre otras cosas, secuencias de ADN o proteínas. Como la comparación la haremos sobre la base de las proteínas de los organismos, debemos elegir en el menú desplegable la opción Protein; así estaremos indicando al buscador que acceda a la base de datos correspondientes a secuencias de proteínas.
 
-![NCBI](ncbi_buscqueda.png "NCBI")
+<img src="ncbi_buscqueda.png" alt="ncbi-busqueda" height="200" width="400">
 
-
-Alternativamente, podríamos acceder en forma directa a la página web de NCBI Protein [https://www.ncbi.nlm.nih.gov/protein](https://www.ncbi.nlm.nih.gov/protein).
+Alternativamente, podríamos acceder en forma directa a la página web de [NCBI Protein](https://www.ncbi.nlm.nih.gov/protein).
 
 Si buscamos el término cytochrome c, obtendremos un listado de secuencias del citocromo c en múltiples organismos. Si quisiéramos acceder a una secuencia en particular, para verla en pantalla o guardarla en un archivo en nuestra computadora, deberíamos hacer clic en el ítem que nos interese del listado de resultados. Podemos usar los filtros disponibles en los menús laterales para facilitar la búsqueda del citocromo c en un organismo en particular. Como alternativa, podríamos realizar una nueva búsqueda en el buscador de la página pero agregando el nombre del organismo en el que estamos interesados.
 
 - Ingresemos a la entrada correspondiente al citocromo c de Homo sapiens.
 
-![NCBI](ncbi_cit_c.png "NCBI")
+<img src="ncbi_cit_c.png" alt="ncbi-busqueda" height="200" width="400">
 
-Al inspeccionar uno de los resultados de la búsqueda en detalle, observamos toda la información disponible acerca de la secuencia de esa proteína: de qué organismo proviene (ORGANISM), quiénes son los investigadores que la determinaron (_**AUTHORS**_), la referencia al artículo donde se publicó (_**TITLE, JOURNAL, PUBMED**_), algunas características de esa secuencia, etc. Al final de la página está la secuencia de aminoácidos de la proteína. 
+Al inspeccionar uno de los resultados de la búsqueda en detalle, observamos toda la información disponible acerca de la secuencia de esa proteína: de qué organismo proviene (**ORGANISM**), quiénes son los investigadores que la determinaron (_**AUTHORS**_), la referencia al artículo donde se publicó (_**TITLE, JOURNAL, PUBMED**_), algunas características de esa secuencia, etc. Al final de la página está la secuencia de aminoácidos de la proteína. 
 
 Para conservar esta secuencia podríamos simplemente copiar, pegar y guardar la secuencia en un archivo de Word, el procesador de texto. Sin embargo, solemos trabajar con archivos de texto sencillos, que respetan un formato estandarizado llamado **FASTA**. Podemos usar el botón “enviar a” (**Send to**) en la parte superior de la página y elegir descargar un archivo (**File**) que contendrá la secuencia deseada en formato FASTA. 
 
@@ -70,13 +69,11 @@ Cuando el alineamiento manual de secuencias es complicado, podemos usar programa
 - Clustal Omega recibirá nuestras secuencias sin alinear: podemos copiarlas desde un archivo y pegarlas en la ventana de búsqueda, o utilizar el botón de subida de un archivo (**upload a file**) para cargar el archivo desde nuestra computadora. Finalmente, presionaremos el botón de envío (**Submit**).
 
 
-![clustalo](clustalo.png "clustalo")
-
+<img src="clustalo.png" alt="clustalo" height="200" width="400">
 
 Luego de unos minutos obtendremos nuestro alineamiento. Podemos elegir verlo en colores (Show Color).
 
-![clustalo](aligment_colors.png "clustalo")
-
+<img src="aligment_colors.png" alt="clustalo-colors" height="200" width="400">
 
 >>**PARA PENSAR** 🤔:¿Qué indican los colores?
 >
@@ -93,8 +90,7 @@ Luego de unos minutos obtendremos nuestro alineamiento. Podemos elegir verlo en 
 Alinear secuencias nos permite ver las similitudes y diferencias que hay entre ellas. Este es el primer paso para intentar conocer su evolución. La reconstrucción de los vínculos evolutivos entre secuencias u organismos es una tarea ardua y difícil de validar, porque nos resulta imposible conocer la historia evolutiva real de las proteínas y los organismos. Sin embargo, existen métodos computacionales que nos permiten inferir los vínculos evolutivos y reconstruir un árbol filogenético a partir de un alineamiento de proteínas. Las herramientas de inferencia filogenética son sencillas de manejar pero complejas de dominar. Para comenzar, Clustal nos provee un sencillo árbol filogenético (Phylogenetic Tree) para las secuencias alineadas.
 
 
-![clustalo](tree.png "clustalo")
-
+<img src="tree.png" alt="tree" height="200" width="400">
 
 >A juzgar por los organismos participantes, ¿cuáles creería que deberían estar más agrupados en el árbol filogenético?
 >
