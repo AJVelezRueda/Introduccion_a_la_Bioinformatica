@@ -1,10 +1,6 @@
 # Virus y otras yerbas
 
 ##### Autora: Dra. Ana Julia Velez Rueda
-Virus y otras yerbas
-
-Texto: Ana Julia Velez Rueda
-
 
 ### Indice
   * [1. Encuarentenados](1_cuarentena) 
