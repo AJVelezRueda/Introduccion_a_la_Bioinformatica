@@ -72,4 +72,4 @@ alignment = pairwise2.align.globalms(seq1, seq2, 2, -1, -0.5, -0.1)
 Aquí tenemos que el match vale 2, el mismatch -1, abrir un gap -0.5 y extenderlo -0.1 (por gap extendido)
 
 > Ahora integremos un poco los conocimientos que obtuvimos hasta ahora poniéndonos en rol. Imaginemos que estamos estudiando una proteína de una especie de la cual no se tiene mucha información, más allá de tener una estructura y se nos pide que averigüemos con qué proteínas de otras especies está relacionada, para lo cual tenemos una serie de secuencias que podemos utilizar. También sabemos que una buena forma de visualizar esta relación es usar un árbol, por lo que el resultado final de la investigación tiene que ser este árbol.
-> Realizá los pasos necesarios para que, a partir de un código pdb y de un archivo con una serie de secuencias, se pueda inferir con qué especies está relacionada.
+> Realizá los pasos necesarios para que, a partir de un código pdb (3erf) y de un archivo con una serie de secuencias (db.fa), se pueda inferir con qué especies está relacionada.
