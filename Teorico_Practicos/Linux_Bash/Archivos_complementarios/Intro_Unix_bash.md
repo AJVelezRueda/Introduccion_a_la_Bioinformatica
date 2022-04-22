@@ -485,3 +485,21 @@ do
     grep -c '>' $FILE
 done
 ```
+## Propuesta de ejercicio integrador
+
+Te proponemos que sigas los ejercicios que están en este repositorio, que te servirán para integrar lo visto en esta guía:
+https://github.com/AJVelezRueda/bashathon
+Y seguí las instrucciones en el repo
+
+
+Tip: para descargar el zip con todos los archivos, pode usar este link:
+https://github.com/AJVelezRueda/bashathon/archive/refs/heads/master.zip
+Y los comandos: wget y unzip
+
+## Algunos recursos para ir más allá
+
+Una especie de pocket book, pero online http://linuxcommand.org/index.php
+Linux commands cheat-sheet: https://files.fosswire.com/2007/08/fwunixref.pdf
+Regex cheatsheet https://cheatography.com/davechild/cheat-sheets/regular-expressions/pdf/
+grep cheatsheet https://cheatography.com/tme520/cheat-sheets/grep-english/pdf/
+One-liners utiles para Bioinformatica:  https://github.com/stephenturner/oneliners
