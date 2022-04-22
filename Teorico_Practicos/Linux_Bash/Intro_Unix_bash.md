@@ -309,6 +309,8 @@ Puedes usar flechas  de teclado (↑↓) para subir y bajar, q para salir
 $ less /etc/ssh/ssh_config
 ```
 
+En este caso, para dejar de leer hay que apretar la tecla **q**.
+
 #### **cut - extraer columnas de archivos**
 
 Por default, cut asume que las columnas del archivo están separadas con tab. Emplea -d para especificar delimitador y -f para especificar columna(s) de interés a extraer
@@ -327,6 +329,22 @@ $ wc aac_coordinates.txt
 $ wc -l aac_coordinates.txt
 ```
 
+Podemos concatenar las acciones de distintos comandos usando el pipe, `|`, el cual toma la salida o el resultado de las acciones que hay en el lado izquierdo y lo usa de entrada para el lado derecho.
+
+```bash
+cat archivo1 archivo2 | wc -l
+```
+
+Aquí en lugar de mostrarse la concatenación de _archivo1_ y _archivo2_ en la pantalla esto pasa a ser la entrada del comando `wc` y con la opción `-l` obtiene la cantidad de líneas, lo cual es lo que se termina mostrando en la pantalla.
+
+>
+> 🧗🏾‍♀️Desafío I: Concatená los archivos seq1.fasta seq2.fasta seq3.fasta y contá cuantas lineas tiene la resultante
+>
+> 🧗🏾‍♀️Desafío I: Concatená los archivos seq1.fasta seq2.fasta seq3.fasta y contá cuantas lineas tiene y guardá el valor resultante en un archivo de nombre conteo_de_lineas.txt
+>
+
+
+
 #### Wget - descarga de contenido desde servidores
 
 **Wget** es una herramienta libre que permite la descarga de contenidos desde servidores web de una forma simple. 
@@ -338,7 +356,14 @@ Tambien podríamos limitar la velocidad de descarga haciendo:
 ```bash
 wget --limit-rate=500k http://unaURLcualquiera.zip
 ```
+#### `rm` - para eliminar archivos. 
 
+Se puede usar con la opción `-r` para eliminar una carpeta
+
+	```bash
+	rm archivo
+	rm -r directorio
+	```
 
 [9-Instalar programas desde repositorios](#9-sudo)
 Un repositorio de Linux es una ubicación de almacenamiento en un servidor remoto, desde la cual tu SO Linux descarga e instala actualizaciones y aplicaciones. 
@@ -394,7 +419,7 @@ Ejemplos de expresiones regulares básicas para un Match literal, de un carácte
 - Contar el número de secuencias en un archivo multi fasta  (el encabezado de cada secuencia comienza con ‘>’):
 
 ```bash
-$ grep -c ‘>’ multiseq.fasta
+$ grep -c '>' multiseq.fasta
 ```
 
 - Obtener los encabezados fasta de las secuencias que contengan el string ‘Homo sapiens’ en un archivo multi fasta:
@@ -407,6 +432,12 @@ $ grep ‘Homo sapiens’ multiseq.fasta
 ```bash
 $ grep -l ‘Homo sapiens’ *.fasta > files_with_human_seqs.txt
 ```
+
+El signo mayor nos permite redireccionar la salida de la operación hacia el archivo _files_with_human_seqs.txt_
+
+>
+> 🧗🏾‍♀️Desafío: Probá ejecutar la linea anterior pero usando >> en lugar de > ¿Qué pasa?¿Qué hace >> ?
+>
 
 [11-Integración con Bash](#-11bash)
 
