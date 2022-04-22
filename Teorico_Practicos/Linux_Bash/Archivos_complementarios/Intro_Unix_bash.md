@@ -15,7 +15,7 @@
 * [8-Navegar y administrar archivos, carpetas y sus permisos](#8-ls)
 * [9-Instalar programas desde repositorios](#9-sudo)
 * [10-GREP - Búsqueda de patrones](#10-GREP)
-
+* [11-Integración con Bash](#11bash)
 
 
 [1-GNU/Linux: historia, filosofía y terminología](#1-Historia)
@@ -408,7 +408,7 @@ $ grep ‘Homo sapiens’ multiseq.fasta
 $ grep -l ‘Homo sapiens’ *.fasta > files_with_human_seqs.txt
 ```
 
-[11-Integración con Bash](#11-bash)
+[11-Integración con Bash](#-11bash)
 
 Ahora que hemos visto algunos pocos comandos, y sabemos lo útiles que pueden ser, la pregunta es... ¿cómo recordar entre los miles que hay disponibles aquellos que necesitamos para hacer una tarea en particular? No se puede, por eso escribimos scripts de shell. 
 
