@@ -1,4 +1,15 @@
 # Biopython
+>
+> **LICENSE**: This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+>
+>[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+> Autor: Guillermo I. Benítez
+
 Esta biblioteca de python, como su nombre lo indica, está enfocada al tratamiento de datos biológicos. Como ya hemos visto existen muchos tratamientos que se le pueden hacer a los datos biológicos y en bioinformática es bastante común tener que usar distintas herramientas, muchas veces escritas en distintos lenguajes de programación, para realizar el pipeline que necesita para obtener los resultados, por lo que nos resulta bastante útil y cómodo poder hacerlos con una misma biblioteca.
 La biblioteca en sí tiene muchísimas herramientas y utilidades que podrán encontrar en la [documentación](https://biopython.org/wiki/Documentation), dentro de las cuales no solo hay herramientas propias de la biblioteca, sino otras utilidades, tales como algoritmos de alineamiento o de búsqueda de secuencias, etc. Ahora vamos a ver algunas pocas herramientas que les van a resultar de utilidad para resolver el trabajo de hoy, pero recomendamos fuertemente que se vayan interiorizando en su uso.
 

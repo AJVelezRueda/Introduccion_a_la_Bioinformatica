@@ -1,5 +1,16 @@
 # TALLER “PROGRAMACIÓN ORIENTADA A LA BIOLOGÍA”
 > Estas guías fueron adaptadas de las guías del diseñadas para el proyecto de extensión [“LA BIOINFORMÁTICA VA A LA ESCUELA”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006473)
+>
+>
+> **LICENSE**: This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+>
+>[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
 
 ## ¡Comencemos! Pero, ¿cómo? 🤔
 Podemos comenzar con algunas definiciones que nos ayuden a entender un poco más de qué se trata este taller:
