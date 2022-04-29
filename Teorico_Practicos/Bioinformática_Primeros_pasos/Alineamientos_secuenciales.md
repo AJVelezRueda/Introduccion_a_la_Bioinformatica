@@ -1,6 +1,7 @@
 # Alineamientos y Búsqueda de similitud secuencial
 
 > Autora: Dra. Ana Julia Velez Rueda
+>
 > **LICENSE**: This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 >
