@@ -8,11 +8,33 @@
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
-> Autor: Guillermo I. Benítez
+> Autor: Guillermo I. Benítez y Dra. Ana Julia Velez Rueda
 
+
+### Indice
+* [1-Instalacion](#1-instalacion)
+* [2-Alineamientos de Secuencias](#2-Alineamientos)
+
+* [4-Manipulacion de PDBs](#4-PDBs)
+
+
+### [1-Instalacion](#1-instalacion)
 Esta biblioteca de python, como su nombre lo indica, está enfocada al tratamiento de datos biológicos. Como ya hemos visto existen muchos tratamientos que se le pueden hacer a los datos biológicos y en bioinformática es bastante común tener que usar distintas herramientas, muchas veces escritas en distintos lenguajes de programación, para realizar el pipeline que necesita para obtener los resultados, por lo que nos resulta bastante útil y cómodo poder hacerlos con una misma biblioteca.
-La biblioteca en sí tiene muchísimas herramientas y utilidades que podrán encontrar en la [documentación](https://biopython.org/wiki/Documentation), dentro de las cuales no solo hay herramientas propias de la biblioteca, sino otras utilidades, tales como algoritmos de alineamiento o de búsqueda de secuencias, etc. Ahora vamos a ver algunas pocas herramientas que les van a resultar de utilidad para resolver el trabajo de hoy, pero recomendamos fuertemente que se vayan interiorizando en su uso.
 
+La biblioteca tiene muchísimas herramientas y utilidades que se detallan en la [documentación](https://biopython.org/wiki/Documentation). No solo hay herramientas propias de la biblioteca, sino otras utilidades, tales como algoritmos de alineamiento o de búsqueda de secuencias, etc. 
+
+Para comenzar a usarlas, debes instalarla usando el instalador de `Python`:
+
+```bash
+pip install biopython
+``` 
+
+### [2-Alineamientos de Secuencias](#2-Alineamientos)
+
+
+
+
+### [4-Manipulacion de PDBs](#4-PDBs)
 Una cuestión que se puede llegar a dar cuando estamos estudiando alguna estructura es saber exactamente su secuencia, pero solo tenemos la estructura (en formato .pdb o .cif o .ent), por lo que para obtener las secuencias de cada cadena podemos hacer:
 
 ```python
