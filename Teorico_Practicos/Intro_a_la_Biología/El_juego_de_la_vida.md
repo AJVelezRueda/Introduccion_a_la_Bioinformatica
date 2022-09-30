@@ -54,7 +54,7 @@ La traducción es el proceso que ocurre en el citoplasma celular en el que la mo
 >
 >🧗🏻‍♀️**DESAFIO IV**: Vamos a divertirnos un poco mientras aprendemos, ¡y no hay mejor modo de hacer esto que jugando! 
 >
-> 👉 Diseñá un juego rpg interactivo sobre la expresión génica que se muestre en la consola (que se ejecute mediante CLI de manera similar a lo visto en el Bashaton). Tené en cuenta que lo vas a tener que compartir con la clase.
+> 👉 Diseñá un juego rpg interactivo sobre la expresión génica que se muestre en la consola (que se ejecute [mediante CLI](https://github.com/AJVelezRueda/Fundamentos_de_informatica/blob/master/CLI_con_Argparse/Interfaz_por_liena_de_comando.md) de manera similar a lo visto en el Bashaton). Tené en cuenta que lo vas a tener que compartir con la clase.
 > 
 >¡El cielo es límite, a divertirse! 
 
