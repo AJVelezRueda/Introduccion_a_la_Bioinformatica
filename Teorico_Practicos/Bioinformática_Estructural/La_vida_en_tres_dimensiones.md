@@ -26,9 +26,12 @@ En el cuadro de búsqueda de la PDB, ingresemos el código identificador de la u
 La página correspondiente a la 1UBQ contiene toda la información disponible sobre el experimento en el que se determinó la estructura terciaria de la ubiquitina humana. Incluye información adicional sobre la proteína extraída de otras bases de datos, que permiten conocer más sobre su secuencia, otras proteínas similares, etc. La primera pantalla que vemos es un resumen de la información estructural (Structure Summary).
 
 >**PARA PENSAR** 🤔:¿Qué información nos provee esta página?
+>
 >**PARA PENSAR** 🤔:¿Cómo se determinó la estructura de esta proteína?
 >A la izquierda vemos una representación de la estructura de ubiquitina. ¿Qué significan las cintas, las flechas y las regiones angostas?
+>
 >**PARA PENSAR** 🤔:¿Representa esa imagen a la realidad del sistema biológico?
+>
 >**PARA PENSAR** 🤔:La estructura 1UBQ fue “refinada a una resolución de 1.8 Angstroms”. Éste es el error asociado al experimento: mientras mayor es la resolución, menor es la certeza al determinar la posición de cada átomo ¿Cuál es la utilidad y los condicionamientos de usar un modelo científico que sabemos inexacto?
 
 Exploremos la pestaña de visualización tridimensional (3D View). Con el mouse podemos rotar, acercar y desplazar a la molécula. El menú de la derecha nos permite cambiar el modo de representación. 
@@ -83,17 +86,19 @@ Existen una gran variedad de softwares capaces de predecir la ubicación de esta
 
 El estudio estructural de proteínas nos proporciona múltiples campos de aplicación, por ejemplo uno de los más explorados en la actualidad es el diseño racional de fármacos. Si se conoce la base biológica de una enfermedad, es decir se conocen las moléculas implicadas, es posible diseñar medicamentos que interactúen con la molécula responsable, de tal forma que la modifique y se modifique el cuadro patológico. En otras palabras, el diseño racional de fármacos consiste en la aplicación del conocimiento biológico y estructural de los receptores (proteínas involucradas en una dada enfermedad) para diseñar moléculas que interactúen sólo con estos… dentro de lo posible!
 
-Un caso interesante es el [EGFR](https://www.uniprot.org/uniprotkb/P00533/entry) es uno de los principales marcadores de cáncer de pulmón. Para estudiar esta proteína, utilizaremos [CaviDB](https://cavidb.org),  una base de datos en línea gratuita que provee información sobre las cavidades proteicas y sus propiedades. 
+Un caso de estudio interesante es el [EGFR](https://www.uniprot.org/uniprotkb/P00533/entry) es uno de los principales marcadores de cáncer de pulmón. Para estudiar esta proteína, utilizaremos [CaviDB](https://cavidb.org),  una base de datos en línea gratuita que provee información sobre las cavidades proteicas y sus propiedades. 
 Sabemos que la estructura 1M14 se corresponde con un confórmero activo, es decir una estructura con actividad, mientras que la estructura 3W32 se corresponde con una conformación inactiva. 
 
 > 
 >🧗🏻‍♀️DESAFÍO I: Compará el sitio activo de ambos confórmeros (posición 837) así como también los tamaños de los pockets. ¿Qué observás?
 > 
 
-Veamos ahora el ejemplo de la proteína Acetil-CoA sintetasa de humano, involucrada en cáncer de mamas. Como bien sabemos para que una droga pueda unirse a la proteína y modificar su función debe tener dónde hacerlo. 
+Las variantes de AKR1C4 están asociadas con el trastorno bipolar y otros trastornos del estado de ánimo y la resistencia a los medicamentos. 
 
 > 
 >🧗🏻‍♀️DESAFÍO II: Investigá la proteína usando la base de datos [Uniprot](https://www.uniprot.org/) y anotá los sitios relevantes biológicamente
 >
->🧗🏻‍♀️DESAFÍO III: Tomando como base la estructura PDB 3GPC, estudiá sus túneles cavidades ¿Encontrás algúna/s cavidad/es en la proteína donde pueda unirse algún fármaco? ¿Qué residuos se encuentran en dicha cavidad?
+> 🧗🏻‍♀️DESAFÍO III :Analizá la estructura PDB [2FVLB](https://www.cavidb.org/chains/62b9e24ad5e54dd8755ed134?q=2FVLB)) ¿Cuántas cavidades fueron predichas para dicha estructura? ¿Hay alguna cavidad drogable? ¿Coincide con algún sitio de relavancia biológica?
+> 
+> 💡 Para investigar: Investigá en qué consiste el docking, en qué ideas basa su funcionamiento ¿Cómo podría aprovecharse este método para tratar esta patología?
 >
