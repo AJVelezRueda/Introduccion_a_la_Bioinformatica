@@ -34,7 +34,7 @@ Es importante tener en cuenta en la interpretación de los árboles filogenétic
 
 [3. Mesero!!! Hay una mosca en mi Bart!!](#3_bart)
 
-Hemos estado trabajando sobre algunos casos concretos de estudio en el trabajo práctico anterior. En particular trabajamos sobre alineamientos de secuencias de Cyt P450 de distintos organismos (podés descargar las secuencias con las que trabajamos desde [aquí](https://github.com/AJVelezRueda/Bioinfo_UNQ/blob/master/Trabajos_Practicos/Inferencias_evolutivas/SecuenciasCytocromoC.fasta)).
+Hemos estado trabajando sobre algunos casos concretos de estudio en el trabajo práctico anterior. En particular trabajamos sobre alineamientos de secuencias de Cyt P450 de distintos organismos (podés descargar las secuencias con las que trabajamos desde [aquí](https://raw.githubusercontent.com/AJVelezRueda/Introduccion_a_la_Bioinformatica/master/Teorico_Practicos/Inferencias_evolutivas/SecuenciasCytocromoC.fasta)).
 En esta ocasión trabajaremos sobre un gran misterio de la biología molecular: el caso del Humanomosca o Moscahumano.
 Seguramente vieron en la tele el resonado caso del niño con cabeza de mosca de fruta y como bien sabemos la tele nunca miente ¿no?  Aún cuando se han realizado múltiples estudios que intentan darle una respuesta kafkiana a los padres, aún no se ha podido determinar cuánto de esta criatura conserva las características del niño. Para ello se secuenció el _Cyt P450_ del *niño_mosca* y se obtuvo la siguiente resultado:
 
