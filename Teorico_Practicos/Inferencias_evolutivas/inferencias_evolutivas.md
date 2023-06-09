@@ -57,13 +57,21 @@ Interpreten los resultados obtenidos, mediante la visualización de los árboles
 [4. Bibliografía](#4_Bibliografia)
 
 <details>
+
 Ashkenazy, H., Sela, I., Levy Karin, E., Landan, G. and Pupko, T. 2019. Multiple sequence alignment averaging improves phylogeny reconstruction. Systematic Biology 68(1), pp. 117–130.
+ 
 Bromham, L. 2009. Why do species vary in their rate of molecular evolution? Biology Letters 5(3), pp. 401–404.
+
 Deng, W., Maust, B.S., Nickle, D.C., et al. 2010. DIVEIN: a web server to analyze phylogenies, sequence divergence, diversity, and informative sites. Biotechniques 48(5), pp. 405–408.
+
 Iantorno, S., Gori, K., Goldman, N., Gil, M. and Dessimoz, C. 2014. Who watches the watchmen? An appraisal of benchmarks for multiple sequence alignment. Methods in Molecular Biology 1079, pp. 59–73.
+
 Kalyaanamoorthy, S., Minh, B.Q., Wong, T.K.F., von Haeseler, A. and Jermiin, L.S. 2017. ModelFinder: fast model selection for accurate phylogenetic estimates. Nature Methods 14(6), pp. 587–589.
+
 Thompson, J.D., Higgins, D.G. and Gibson, T.J. 1994. CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice. Nucleic Acids Research 22(22), pp. 4673–4680.
+
 Townsend, J.P., López-Giráldez, F. and Friedman, R. 2008. The phylogenetic informativeness of nucleotide and amino acid sequences for reconstructing the vertebrate tree. Journal of Molecular Evolution 67(5), pp. 437–447.
+
 </details>
 
 
