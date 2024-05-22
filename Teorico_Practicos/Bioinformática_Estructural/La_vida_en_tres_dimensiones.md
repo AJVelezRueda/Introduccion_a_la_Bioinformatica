@@ -150,14 +150,23 @@ La principal métrica de confianza utilizada en AlphaFold es el test pLDDT (pred
 Exiten distribuciones de este modelo que permiten hacer corridas nos cutomizables en [Colab (Google)](https://github.com/sokrypton/ColabFold/blob/main/README.md) que permiten [obtener](https://www.ccp4.ac.uk/schools/DLS-2023/course_material/20231130%20-%20Alphafold%20tutorial%20-%20Adam%20Simpkin.pdf):
 
    - *_template_domain_names.json Tiene los templados utilizados por AlphaFold2 si es que se usaron.
-    Cite.bibtex Contiene todas las citas correspondientes a los papers relacionados.
+
+   -  Cite.bibtex Contiene todas las citas correspondientes a los papers relacionados.
+   
     - Config.json Contiene todos los parámetros utilizados en la corrida.
+   
     - *.a3m Alineamiento
+   
     - *_coverage.png Gráfico de la cobertura del alineamiento
+   
     - *_PAE.png Gráfico del PAE por pares de residuos para todos los modelos.
+   
     - *_plddt.png Gráfico del plddt por posición
+   
     - *_predicted_aligned_error_v1.json Tiene los valores de PAE para todos los pares de todos los modelos.
+   
     - *_relaxed_*_model_*.pdb Son los 5 modelos generados.
+   
     - *_relaxed_*_model_*.json Son el PAE y pLDDT de cada modelo que se pueden utilizar para graficar.
 
 >
