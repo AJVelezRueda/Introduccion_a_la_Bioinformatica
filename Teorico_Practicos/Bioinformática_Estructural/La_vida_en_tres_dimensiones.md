@@ -123,3 +123,52 @@ Se sabe que la capacidade catalítica de una cavidad suele asociarse con algunas
 >
 > 💡 Para investigar: Leé más sobre los [hallazgos](https://www.sciencedirect.com/science/article/abs/pii/S0300908422000426) hechos por l@s investigadores/as de la Universidad Nacional de Quilmes sobre la evolución de albúminas y contrastalo con lo que pusidte observar.
 >
+
+
+## Un modelo a seguir
+
+La bioiformática estructural de proteínas tienen como base la existencia de estructuras tridimencionales de las mismas. Las técnicas de rayos X y resonancia magnética nuclear proporcionan estructuras de alta resolución y son el punto de partida para los análisis bioinfomático de predicción funcional, estructural y de unión a ligandos (diseño de fármacos). Lamentablemente estas técnicas de caracterización estructural solo pueden realizarse sobre un número acotado de proteínas. Para una gran parte de la fracción de secuencias cuya estructura no se puede determinar experimentalmente, los métodos computacionales de predicción de estructura nos ofrecen la información necesaria para explicar gran parte de los aspectos funcionales que se pueden derivar del conocimiento estructural.
+
+Los algoritmos de modelado molecular emplean varias estrategias:
+ 
+1. Modelado ab initio:  Los métodos ab initio, por ejemplo, utilizan modelos matemáticos para predecir estructuras de proteínas basándose únicamente en la secuencia de aminoácidos, sin depender de estructuras conocidas. Emplea modelos basados ​tanto ​en la física, como dinámica molecular y simulaciones de Monte carlo, para predecir estructuras de proteínas. Estos modelos simulan interacciones entre átomos, lo que permite explorar el espacio conformacional de la proteína e identificar estructuras energéticamente favorables. Los métodos ab initio pueden ser costosos desde el punto de vista computacional y propensos a imprecisiones.
+
+2. Modelado de homología: este típo de algoritmos aprovecha la similitud entre la proteína objetivo y las proteínas homólogas con estructuras conocidas para generar predicciones confiables. Basado en alineamientos secuenciales, los algoritmos pueden generar un modelo confiable tomando como base la estructura de la proteína plantilla. El modelado de homología es particularmente útil cuando existe una proteína estrechamente relacionada con una estructura conocida, ya que proporciona predicciones precisas.
+
+
+3. Enfoques de aprendizaje automático: en los últimos años, los algoritmos de aprendizaje automático, como el aprendizaje profundo, han ganado importancia en la predicción de la estructura de las proteínas. Estos métodos aprovechan grandes conjuntos de datos de estructuras de proteínas conocidas para entrenar modelos que puedan predecir la estructura de nuevas proteínas. Al aprender de patrones y correlaciones en los datos, los algoritmos de aprendizaje automático pueden hacer predicciones precisas, incluso para proteínas con datos experimentales limitados.
+
+## Un ejemplo de tantos
+
+Predecir la estructura tridimensional que adoptará una proteína basándose únicamente en su secuencia de aminoácidos ha sido un problema de investigación abierto durante más de 50 años. En el año 2021, AlphaFold proporciona el primer método computacional para predecir estructuras de proteínas con precisión atómica incluso en casos donde no se conoce una estructura similar. 
+
+A partir de la secuencia primaria de una proteína, AlphaFold2 utiliza una red neuronal para la predicción estructural de alta precisión (en la mayoría de los casos), la cual aumenta con el uso de estructuras homólogas. AlphaFold2 puede incluso predecir con alta precisión las cadenas laterales si el backbone es preciso. Se basa en una arquitectura de red que utiliza como inputs alineamientos múltiples de secuencias (MSAs) y una representación tridimencional de todos los pares de residuos de la secuencia. 
+
+
+La principal métrica de confianza utilizada en AlphaFold es el test pLDDT (predicted local-distance difference test), que avalua las diferencias en las distancias Carbonos α (IDDT-Cα) y evalúa principalmente la correctitud del modelo a nivel local (estimando el error en distancias de un Cα con Cα vecinos en un rango de 15Å). La segunda métrica se denomina PAE (por Predicted Aligned error) y compara el error en la predicción de pares de residuos, esto es el error sobre el residuo y cuando las estructuras real y predicha son alineadas sobre el residuo x. 
+
+Exiten distribuciones de este modelo que permiten hacer corridas nos cutomizables en [Colab (Google)](https://github.com/sokrypton/ColabFold/blob/main/README.md) que permiten [obtener](https://www.ccp4.ac.uk/schools/DLS-2023/course_material/20231130%20-%20Alphafold%20tutorial%20-%20Adam%20Simpkin.pdf):
+
+   - *_template_domain_names.json Tiene los templados utilizados por AlphaFold2 si es que se usaron.
+    Cite.bibtex Contiene todas las citas correspondientes a los papers relacionados.
+    - Config.json Contiene todos los parámetros utilizados en la corrida.
+    - *.a3m Alineamiento
+    - *_coverage.png Gráfico de la cobertura del alineamiento
+    - *_PAE.png Gráfico del PAE por pares de residuos para todos los modelos.
+    - *_plddt.png Gráfico del plddt por posición
+    - *_predicted_aligned_error_v1.json Tiene los valores de PAE para todos los pares de todos los modelos.
+    - *_relaxed_*_model_*.pdb Son los 5 modelos generados.
+    - *_relaxed_*_model_*.json Son el PAE y pLDDT de cada modelo que se pueden utilizar para graficar.
+
+>
+> 🧗🏻‍♀️DESAFÍO VI: En el campo sequence query ingresá la sigueinte sequencia [colab](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=kOblAo-xetgx), usando num_relax = 1 y  template_mode = pdb100: 
+>
+>sp|P03129|VE7_HPV16 Protein E7 OS=Human papillomavirus type 16 OX=333760 GN=E7 PE=1 SV=1
+MHGDTPTLHEYMLDLQPETTDLYCYEQLNDSSEEEDEIDGPAGQAEPDRAHYNIVTFCCKCDSTLRLCVQSTHVDIRTLEDLLMGTLGIVCPICSQKP
+>
+> La corrida se ejecuta desde el `Runtime --> Run all` 
+> - ¿Qué el campo template_mode? ¿Qué opciones pueden ser utilizadas? 
+> - ¿Qué regiones de la estructura resultante tienen una mayor confianza? Desarrollar un script que permita graficar los pLDDT por posición
+>
+> [Nota]: Este último ejercicio se basa en la guía de [Modelado por Homología II de la UNSAM](https://bioinformatica-iib.github.io/estructural/practicos/modelado_alphafold/#ejercicio-1-modelado-de-un-monomero-de-e7)
+>
