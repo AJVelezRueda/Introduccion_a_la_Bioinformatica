@@ -31,10 +31,10 @@ Los trabajos prácticos relativos al modelado molecular requieren la instalació
 
 | **Nombre** | **Url** | **Práctica** | **Pros** | **Contras** |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  Learn Genomics| [https://learngenomics.dev/](https://learngenomics.dev/) | 10% | De lectura rápida | En inglés, sin traducción. Práctica muy escasa, no profundiza los contenidos |
+|  Learn Genomics| [https://learngenomics.dev/](https://learngenomics.dev/) | 10% | De lectura rápida | En inglés, sin traducción. Práctica muy escasa, no profundiza los contenidos. Solo aborda contenidos de genómica y biología básica |
 | Carpentries | [https://software-carpentry.org/lessons/](https://software-carpentry.org/lessons/) | 50 % | De lectura rápida. Bien explicado y con traducciones a muchos idiomas | Solo contenido de programación |
 | Introduccioón a la Bioinformática | [https://github.com/AJVelezRueda/Introduccion_a_la_Bioinformatica](https://github.com/AJVelezRueda/Introduccion_a_la_Bioinformatica) | 50% | En español, con prácticas múltimples en diferentes temas | Contenido introductorio con foco en Bioinformática y no tanto en programación |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+|Herramientas Bioinformáticas para el análisis de estructura, desorden e interacciones de proteínas| [https://bioinformatica-iib.github.io/estructural/contenidos/](https://bioinformatica-iib.github.io/estructural/contenidos/) | 50% | En español. Con teorías y prácticas detalladas | Requiere instalaciones. Solo de bioinformática estructural | Contendio variado |
 
 
 ### Libros
