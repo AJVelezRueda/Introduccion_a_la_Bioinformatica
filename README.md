@@ -26,7 +26,7 @@ Para el trabajo práctico de alineamientos estructurales utilizaremos el softwar
 ## MODELADO 
 Los trabajos prácticos relativos al modelado molecular requieren la instalación de Modeller ([ver tutorial de instalación](https://salilab.org/modeller/download_installation.html) ). Recomiendo la instalación utiizando conda en caso de tener instalado Anaconda como distribución de Python.
 
-## Otros Recursos
+## OTROS RECURSOS
 ### Repositorios
 
 | **Nombre** | **Url** | **Práctica** | **Pros** | **Contras** |
