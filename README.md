@@ -1,8 +1,8 @@
+<img src="./img/encabezado_git.png">
+
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 # Bioinfo_UNQ
-
-<img src="./img/encabezado_git.png">
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
