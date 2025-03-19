@@ -126,7 +126,31 @@ En términos generales científic@s de todo el mundo desarrollan diversos conoci
 
 La información contenida en bases de datos biológicas puede incluir, por ejemplo: funciones, estructura y localización de proteínas o genes, efectos clínicos de mutaciones, así como similitudes de secuencias o distancias evolutivas, etc. Entre las bases de datos más utilizadas por científicos de todo el mundo, bioinformáticos o no, se encuentran GenBank (colección de todas las secuencias biológicas estudiadas) y PDB (que guarda la información estructural disponible acerca de ácidos nucleicos y proteínas).
 
+>🧗🏻‍♀️DESAFÍO VII (Ejercicio basado en [Rosalind](https://rosalind.info/problems/locations/)): Los motivos lineales son elementos de secuencia que comúnmente se encuentran en dominios intrínsecamente desordenados. Consisten, en promedio, de cinco residuos que determinan la función y participan en interacciones proteína-proteína (Podes leer más [aquí](https://ri.conicet.gov.ar/handle/11336/80047)).
 >
+> Para permitir la presencia de sus formas variables, un motivo proteico se representa con una notación abreviada de la siguiente manera: [XY] significa "X o Y", y {X} significa "cualquier aminoácido excepto X". Por ejemplo, el **motivo de N-glicosilación se escribe como N{P}[ST]{P}**.
+>
+>Puedes ver la descripción completa y las características de una proteína en particular mediante su identificador de acceso "uniprot_id" en la base de datos [UniProt](http://www.uniprot.org), insertando el número de identificación en:
+>
+>[http://www.uniprot.org/uniprot/uniprot_id](http://www.uniprot.org/uniprot/uniprot_id)
+>
+>Alternativamente, puedes obtener la secuencia de una proteína en formato FASTA siguiendo el enlace:
+>
+>[http://www.uniprot.org/uniprot/uniprot_id.fasta](http://www.uniprot.org/uniprot/uniprot_id.fasta)
+>
+>Por ejemplo, los datos de la proteína B5ZC00 se encuentran en: [http://www.uniprot.org/uniprot/B5ZC00](http://www.uniprot.org/uniprot/B5ZC00)
+>
+>Dado: Un máximo de 15 identificadores de la base de datos de proteínas UniProt
+>
+> Retornar: Para cada proteína que posea el motivo de N-glicosilación, imprimir su identificador de acceso seguido de una lista de posiciones en la secuencia de la proteína donde se encuentra el motivo.
+>
+
+> 🧗🏻‍♀️Desafío VIII: Dada la siguiente lista de sequencias, realizar el una representación [Logo](https://logomaker.readthedocs.io/en/latest/index.html) 
+>``` python
+[`MLPGLALLLLAAWTMRALEVPTDGNAPLLVEPQIAMFCGRLNMHMNVQNGKWDSDPSGTKTCIDTKEGILQYCQEVYPELQITNVVEANQPVTIQNWCKRGRAQCKTHPHFVIPYRCLVGEFVSDALLAPDKCKFLHQERMDVCETHLHWHTV`, `MLPGLALLLLAAWTARALEVPTDGNAGLLAEPQIAMFCGRLNMHMNVQNGKWDSDPSGTKTCIDTKEGILQYCQEVYPELQITNVVEANQPVTIQNWCKRGRKQCKTHPHFVIPYRCLVGEFVSDALLVPDKCKFLHQERMDVCETHLHWHTV`, `MLPGLALLLLAAWTARALEVPTDGNAGLLAEPQIAMFCGRLNMHMNVQNGKWDSDPSGTKTCIDTKEGILQYCQEVYPELQITNVVEANQPVTIQNWCKRGRKQCKTHPHFVIPYRCLVGEFVSDALLVPDKCKFLHQERMDVCETHLHWHTV`]
+```
+>
+
 >👉 ¡Vamos a explorar juntos/as como es La vida en Tres dimensiones!
 >
 
