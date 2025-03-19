@@ -143,7 +143,9 @@ La información contenida en bases de datos biológicas puede incluir, por ejemp
 >Dado: Un máximo de 15 identificadores de la base de datos de proteínas UniProt
 >
 > Retornar: Para cada proteína que posea el motivo de N-glicosilación, imprimir su identificador de acceso seguido de una lista de posiciones en la secuencia de la proteína donde se encuentra el motivo.
->
+
+
+
 
 > 🧗🏻‍♀️Desafío VIII: Dada la siguiente lista de sequencias, realizar el una representación [Logo](https://logomaker.readthedocs.io/en/latest/index.html) 
 > 
