@@ -1,3 +1,5 @@
+<img src="../../img/encabezado_git.png">
+
 # Inferencias Evolutivas
 
 ##### Autores: Dra. Ana Julia Velez Rueda y Guillermo I. Benítez

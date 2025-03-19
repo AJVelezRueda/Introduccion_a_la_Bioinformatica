@@ -1,3 +1,5 @@
+<img src="../../img/encabezado_git.png">
+
 # Alineamientos y Búsqueda de similitud secuencial
 
 > Autora: Dra. Ana Julia Velez Rueda

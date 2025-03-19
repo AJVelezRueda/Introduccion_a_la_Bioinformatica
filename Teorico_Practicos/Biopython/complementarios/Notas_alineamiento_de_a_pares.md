@@ -1,5 +1,6 @@
+<img src="../../../img/encabezado_git.png"> 
 
-En resumen
+## En resumen: Alineamiento de a Pares
 
 **Los parámetros de match son:**
 

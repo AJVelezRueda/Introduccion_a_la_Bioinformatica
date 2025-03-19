@@ -1,3 +1,5 @@
+<img src="../../img/encabezado_git.png">
+
 # TALLER “PROGRAMACIÓN ORIENTADA A LA BIOLOGÍA”
 > Estas guías fueron adaptadas de las guías del diseñadas para el proyecto de extensión [“LA BIOINFORMÁTICA VA A LA ESCUELA”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006473)
 >

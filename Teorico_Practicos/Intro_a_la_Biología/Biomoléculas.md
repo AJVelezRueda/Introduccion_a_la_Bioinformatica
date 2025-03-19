@@ -1,3 +1,5 @@
+<img src="../../img/encabezado_git.png">
+
 # Biomoléculas: una breve introducción al nuestro mundo interior
 
 ##### Autora: Dra. Ana Julia Velez Rueda

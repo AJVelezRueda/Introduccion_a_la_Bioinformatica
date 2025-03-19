@@ -1,3 +1,5 @@
+<img src="../../img/encabezado_git.png">
+
 # Virus y otras yerbas
 
 ##### Autora: Dra. Ana Julia Velez Rueda

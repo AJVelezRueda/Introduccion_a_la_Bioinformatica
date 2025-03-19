@@ -1,3 +1,5 @@
+<img src="../../img/encabezado_git.png">
+
 # El juego de la vida
 
 ##### Autora: Dra. Ana Julia Velez Rueda

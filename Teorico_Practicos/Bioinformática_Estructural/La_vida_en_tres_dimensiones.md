@@ -1,4 +1,7 @@
+<img src="../../img/encabezado_git.png">
+
 # La vida en tres dimensiones
+
 > Autores: Dra. Ana Julia Velez Rueda, Niolás Palopoli
 >
 > **LICENSE**: This work is licensed under a
